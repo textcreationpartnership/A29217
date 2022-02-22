@@ -1,0 +1,881 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>A form of sound words, or a brief family catechisme containing the cheif heads of Christian religion. (Fitted for the weakest capacities.) Together with some arguments against atheisme. By J.B. a minister of the Church of England</title>
+            <author>Brandon, John, b. 1644 or 5.</author>
+         </titleStmt>
+         <editionStmt>
+            <edition>
+               <date>1682</date>
+            </edition>
+         </editionStmt>
+         <extent>Approx. 86 KB of XML-encoded text transcribed from 38 1-bit group-IV TIFF page images.</extent>
+         <publicationStmt>
+            <publisher>Text Creation Partnership,</publisher>
+            <pubPlace>Ann Arbor, MI ; Oxford (UK) :</pubPlace>
+            <date when="2014-11">2014-11 (EEBO-TCP Phase 2).</date>
+            <idno type="DLPS">A29217</idno>
+            <idno type="STC">Wing B4249B</idno>
+            <idno type="STC">ESTC R213088</idno>
+            <idno type="EEBO-CITATION">99825599</idno>
+            <idno type="PROQUEST">99825599</idno>
+            <idno type="VID">29985</idno>
+            <availability>
+               <p>To the extent possible under law, the Text Creation Partnership has waived all copyright and related or neighboring rights to this keyboarded and encoded edition of the work described above, according to the terms of the CC0 1.0 Public Domain Dedication (http://creativecommons.org/publicdomain/zero/1.0/). This waiver does not extend to any page images or other supplementary files associated with this work, which may be protected by copyright or other license restrictions. Please go to https://www.textcreationpartnership.org/ for more information about the project.</p>
+            </availability>
+         </publicationStmt>
+         <seriesStmt>
+            <title>Early English books online text creation partnership.</title>
+         </seriesStmt>
+         <notesStmt>
+            <note>(EEBO-TCP ; phase 2, no. A29217)</note>
+            <note>Transcribed from: (Early English Books Online ; image set 29985)</note>
+            <note>Images scanned from microfilm: (Early English books, 1641-1700 ; 1790:14)</note>
+         </notesStmt>
+         <sourceDesc>
+            <biblFull>
+               <titleStmt>
+                  <title>A form of sound words, or a brief family catechisme containing the cheif heads of Christian religion. (Fitted for the weakest capacities.) Together with some arguments against atheisme. By J.B. a minister of the Church of England</title>
+                  <author>Brandon, John, b. 1644 or 5.</author>
+               </titleStmt>
+               <extent>[6], 64 p.   </extent>
+               <publicationStmt>
+                  <publisher>printed for Jonathan Robinson, at the Golden Lyon in St. Paul's Church-yard,</publisher>
+                  <pubPlace>London :</pubPlace>
+                  <date>1682.</date>
+               </publicationStmt>
+               <notesStmt>
+                  <note>J.B. = John Brandon of Finchampstead. Cf. Wing.</note>
+                  <note>Reproduction of the original in the Harvard University Library.</note>
+               </notesStmt>
+            </biblFull>
+         </sourceDesc>
+      </fileDesc>
+      <encodingDesc>
+         <projectDesc>
+            <p>Created by converting TCP files to TEI P5 using tcp2tei.xsl,
+      TEI @ Oxford.
+      </p>
+         </projectDesc>
+         <editorialDecl>
+            <p>EEBO-TCP is a partnership between the Universities of Michigan and Oxford and the publisher ProQuest to create accurately transcribed and encoded texts based on the image sets published by ProQuest via their Early English Books Online (EEBO) database (http://eebo.chadwyck.com). The general aim of EEBO-TCP is to encode one copy (usually the first edition) of every monographic English-language title published between 1473 and 1700 available in EEBO.</p>
+            <p>EEBO-TCP aimed to produce large quantities of textual data within the usual project restraints of time and funding, and therefore chose to create diplomatic transcriptions (as opposed to critical editions) with light-touch, mainly structural encoding based on the Text Encoding Initiative (http://www.tei-c.org).</p>
+            <p>The EEBO-TCP project was divided into two phases. The 25,368 texts created during Phase 1 of the project (2000-2009), initially available only to institutions that contributed to their creation, were released into the public domain on 1 January 2015. The approximately 40,000 texts produced during Phase 2 (2009- ), of which 34,963 had been released as of 2020, originally similarly restricted, were similarly freed from all restrictions on 1 August 2020. As of that date anyone is free to take and use these texts for any purpose (modify them, annotate them, distribute them, etc.). But we do respectfully request that due credit and attribution be given to their original source.</p>
+            <p>Users should be aware of the process of creating the TCP texts, and therefore of any assumptions that can be made about the data.</p>
+            <p>Text selection was based on the New Cambridge Bibliography of English Literature (NCBEL). If an author (or for an anonymous work, the title) appears in NCBEL, then their works are eligible for inclusion. Selection was intended to range over a wide variety of subject areas, to reflect the true nature of the print record of the period. In general, first editions of a works in English were prioritized, although there are a number of works in other languages, notably Latin and Welsh, included and sometimes a second or later edition of a work was chosen if there was a compelling reason to do so.</p>
+            <p>Image sets were sent to external keying companies for transcription and basic encoding. Quality assurance was then carried out by editorial teams in Oxford and Michigan. 5% (or 5 pages, whichever is the greater) of each text was proofread for accuracy and those which did not meet QA standards were returned to the keyers to be redone. After proofreading, the encoding was enhanced and/or corrected and characters marked as illegible were corrected where possible up to a limit of 100 instances per text. Any remaining illegibles were encoded as &lt;gap&gt;s. Understanding these processes should make clear that, while the overall quality of TCP data is very good, some errors will remain and some readable characters will be marked as illegible. Users should bear in mind that in all likelihood such instances will never have been looked at by a TCP editor.</p>
+            <p>The texts were encoded and linked to page images in accordance with level 4 of the TEI in Libraries guidelines.</p>
+            <p>Copies of the texts have been issued variously as SGML (TCP schema; ASCII text with mnemonic sdata character entities); displayable XML (TCP schema; characters represented either as UTF-8 Unicode or text strings within braces); or lossless XML (TEI P5, characters represented either as UTF-8 Unicode or TEI g elements).</p>
+            <p>Keying and markup guidelines are available at the <ref target="http://www.textcreationpartnership.org/docs/.">Text Creation Partnership web site</ref>.</p>
+         </editorialDecl>
+         <listPrefixDef>
+            <prefixDef ident="tcp"
+                       matchPattern="([0-9\-]+):([0-9IVX]+)"
+                       replacementPattern="http://eebo.chadwyck.com/downloadtiff?vid=$1&amp;page=$2"/>
+            <prefixDef ident="char"
+                       matchPattern="(.+)"
+                       replacementPattern="https://raw.githubusercontent.com/textcreationpartnership/Texts/master/tcpchars.xml#$1"/>
+         </listPrefixDef>
+      </encodingDesc>
+      <profileDesc>
+         <langUsage>
+            <language ident="eng">eng</language>
+         </langUsage>
+         <textClass>
+            <keywords scheme="http://authorities.loc.gov/">
+               <term>Catechisms, English --  Early works to 1800.</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <revisionDesc>
+         <change>
+            <date>2013-01</date>
+            <label>TCP</label>Assigned for keying and markup</change>
+         <change>
+            <date>2013-02</date>
+            <label>SPi Global</label>Keyed and coded from ProQuest page images</change>
+         <change>
+            <date>2013-04</date>
+            <label>Olivia Bottum</label>Sampled and proofread</change>
+         <change>
+            <date>2013-04</date>
+            <label>Olivia Bottum</label>Text and markup reviewed and edited</change>
+         <change>
+            <date>2014-03</date>
+            <label>pfs</label>Batch review (QC) and XML conversion</change>
+      </revisionDesc>
+   </teiHeader>
+   <text xml:lang="eng">
+      <front>
+         <div type="title_page">
+            <pb facs="tcp:29985:1"/>
+            <pb facs="tcp:29985:1"/>
+            <p>A FORM of Sound WORDS, OR, A Brief <hi>Family-Catechiſme,</hi> Containing the Cheif Heads of CHRISTIAN RELIGION. <hi>(Fitted for the weakeſt Capacities.)</hi> Together with ſome Arguments againſt ATHEISME.</p>
+            <p>By <hi>J. B.</hi> a Miniſter of the Church of <hi>England</hi>
+            </p>
+            <q>
+               <p>
+                  <bibl>
+                     <hi>Pſal. 119.124.</hi>
+                  </bibl> Deal with thy Servant according to thy Mercy, and Teach me thy Statutes.</p>
+               <p>
+                  <bibl>
+                     <hi>2 Tim. 3.16.</hi>
+                  </bibl> From a Child thou haſt known the holy Scriptures, which are able to make thee wiſe unto Sal<g ref="char:EOLhyphen"/>vation, through Faith which is in Chriſt Jeſus.</p>
+            </q>
+            <p>
+               <hi>LONDON,</hi> Printed for <hi>Jonathan Robinſon,</hi> at the <hi>Golden Lyon</hi> in St. <hi>Paul</hi>'s Church-yard, 1682.</p>
+         </div>
+         <div type="to_the_reader">
+            <pb facs="tcp:29985:2"/>
+            <pb facs="tcp:29985:2"/>
+            <head>TO THE READER.</head>
+            <opener>
+               <salute>Chriſtian Reader,</salute>
+            </opener>
+            <p>AS it hath been obſerved in War, That ſmall Shot hath commonly done more Miſcheif than great. So <hi>I</hi> think (in the Christian Warfare) that ſmall Books, eſpecially Catechiſmes have done more good, than larger ones, for the most part: For as many that have most need of them, have but little money to lay out on books, and but little time to read them: So <hi>I</hi> believe They are the leſs apt to concern themſelves with them when they ſee they are any thing large. Where<g ref="char:EOLhyphen"/>fore <hi>I</hi> have studied Brevity herein; And do ſatisfie my ſelf the more with it, be<g ref="char:EOLhyphen"/>cauſe <hi>I</hi> judge, as that Most Reverend
+<pb facs="tcp:29985:3"/>Man of God, That a few Articles of Religion may be of that weight that they may be ſufficient to make a man wiſe to Salva<g ref="char:EOLhyphen"/>tion.
+<note place="margin">Biſhop <hi>uſher.</hi>
+               </note> See his excellent Sermon on <hi>Eph. 4.13. (p. 16.)</hi> of whoſe Judgment it were eaſie to ſhew many others of the Lords Worthies
+<note n="*" place="margin">
+                  <hi>Prima iſta pauca credibi<g ref="char:EOLhyphen"/>lia,</hi> &amp;c. <hi>uti Doc<g ref="char:EOLhyphen"/>tiſſ.</hi> Davenant. <hi>in Adhortat. pro pace Eccleſ.</hi>
+               </note> to have been.</p>
+            <p>It is needleſs for me to enlarge in this place, and no leſs vain to make an Apolo<g ref="char:EOLhyphen"/>gy for my ſelf: for as herein <hi>I</hi> deſire not to diſpleaſe any, ſo I am confident <hi>I</hi> do no man wrong by this Paper, And am not without hopes that it may do good to ſome.</p>
+            <p>Reader, If Thou art one that can ſpare a little Money, I would Requeſt Thee to bestow a few of theſe Papers, or ſome others that are better, upon thy poor Neighbours, for their Souls good; and, if thou art a Houſholder, to make uſe of ſome ſuch for the good of them that are under thy Charge.</p>
+            <pb facs="tcp:29985:3"/>
+            <p> 
+               <hi>I</hi> have no more to add but my Wiſhes of thy Spiritual Welfare, and to deſire Thee to beg the Bleſſing of The God of all Grace upon all the means of Grace that are afforded us.</p>
+            <closer>
+               <signed>For whoſe ſake <hi>I</hi> am, Thy ready Servant, <hi>J. Brandon.</hi>
+               </signed>
+            </closer>
+         </div>
+      </front>
+      <body>
+         <div type="catechism">
+            <pb facs="tcp:29985:4"/>
+            <pb n="1" facs="tcp:29985:4"/>
+            <head>A FAMILY CATECHISME.</head>
+            <p>WHereas thou haſt a God to ſerve, (as at the <hi>End of this Paper</hi> is plainly proved) and ſeeing thou ſhalt ſhortly have done with all this World; and canſt have no hopes of a better World hereafter, unleſs thou doſt ſerve him truly Here; I would therefore know</p>
+            <p>Queſt. <hi>What is the Rule according to which thou art to ſerve Him?</hi>
+            </p>
+            <p>
+               <hi>Anſw.</hi> The Holy Scripture is that Rule.</p>
+            <p>Q. <hi>Where doth that appear?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Iſa. 8.20. <hi>To the law, and to the Teſti<g ref="char:EOLhyphen"/>mony; if they ſpeak not according to this word, it is becauſe there is no light in them.</hi> Gal. 6.16. <hi>As many as walk according to this Rule, peace be upon them.</hi>
+            </p>
+            <p>Q. <hi>How far forth can the Scripture inſtruct us?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It it able to make wiſe to Salvation. 2 <hi>Tim.</hi> 3.16.</p>
+            <pb n="2" facs="tcp:29985:5"/>
+            <p> Q. <hi>How doth it ſo?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By teaching us to know our ſelves and our God.</p>
+            <p>Q. <hi>What doth the Scriptures teach us of our ſelves?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That we are fallen from that Holy State in which Mankind was made, and are be<g ref="char:EOLhyphen"/>come ſinful, and ſubject to the wrath of God through Sin.</p>
+            <p>Q. <hi>How ſo?</hi>
+            </p>
+            <p>
+               <hi>A. Adam</hi> (though he was made upright, as 'tis written, <hi>God made man upright,</hi> Eccl. 7.29.) turned from the Holy Command<g ref="char:EOLhyphen"/>ment given unto Him, and did eat of for-bidden Fruit, <hi>Gen.</hi> 2.16, 17. compared with <hi>Gen.</hi> 3.13. And ſo became a Sinner.</p>
+            <p>Q. <hi>But why muſt his poſterity be <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> he himſelf was a ſinner, may no<gap reason="illegible" resp="#UOM" extent="1 letter">
+                     <desc>•</desc>
+                  </gap> 
+                  <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> came of him be without ſin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. <hi>He had Children after <gap reason="illegible" resp="#UOM" extent="1 span">
+                     <desc>〈…〉</desc>
+                  </gap> likeneſs,</hi> Gen. 5.3. <hi>And who can bring a <gap reason="illegible" resp="#UOM" extent="1 word">
+                     <desc>〈◊〉</desc>
+                  </gap> thing out of an unclean,</hi> Job 14.4.</p>
+            <p>Q. <hi>Are all men become ſinful?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes. <hi>Who can ſay, My Heart is clean, I am pure from my Sin,</hi> Prov. 20.9. <hi>If we ſay we have no ſin we deceive our ſelves,</hi> 1 Joh. 1.8.</p>
+            <p>Q. <hi>What are men therefore in their Natural State?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Children of wrath, Eph. 2.3. <hi>We were by Nature Children of wrath even as others.</hi>
+            </p>
+            <pb n="3" facs="tcp:29985:5"/>
+            <p> Q. <hi>What doth ſin make the ſinner worthy of?</hi>
+            </p>
+            <p>
+               <hi>A. The wages of ſin is Death,</hi> Rom. 6.25. where it is to be noted, That this is not ſpoken of any particular groſs Sin only, but of ſin as ſuch, and therefore of every ſin. And the Death which the Apoſtle ſpeaks of, includes Eternal Death or Damnation. It be<g ref="char:EOLhyphen"/>ing ſuch a Death as is oppoſed to Eternal Life, in that Verſe.</p>
+            <p>Q. <hi>Doth not this make all ſins Equal? for if every ſin makes a man worthy of Damnation, what can be ſaid more of the greateſt ſins, than is ſaid of the leaſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. This doth not take away the differences or degrees of ſin, for tho' all Sin deſerve Damnation, (that is, Condemnation from God) yet greater ſins deſerve the grea<g ref="char:EOLhyphen"/>ter Damnation; as we read of ſome, that they ſhould receive the greater Damnation, becauſe they devoured Widow's Houſes, and for a pretence made long Prayers. <hi>Matth.</hi> 23.14.</p>
+            <p>Q. <hi>Is it not ſtrange, That Sin ſhould make a man worthy of ſo great a Miſery?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. No wonder at all; becauſe it is committed againſt ſo great a God, being an Offence, and Diſhonour to him, and a Tranſ<g ref="char:EOLhyphen"/>greſſion of his Law, <hi>Rom.</hi> 2.23. <hi>Jam.</hi> 3.2. 1 <hi>Joh.</hi> 3.4.</p>
+            <pb n="4" facs="tcp:29985:6"/>
+            <p> Q. <hi>May a man therefore be ruined everlaſt<g ref="char:EOLhyphen"/>ingly for the firſt ſin he is guilty of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes doubtleſs, and would be ſo indeed, if God ſhould enter into Judgment with him for it, and ſhew him no favour.</p>
+            <p>Q. <hi>Can you ſhew any Examples from Scrip<g ref="char:EOLhyphen"/>ture to confirm this?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes, The Angels (many of them) tho' greater in Power than Man, yet were ruined for their firſt Sin againſt God.</p>
+            <p>2 Pet. 2.4. <hi>God ſpared not the Angels that ſinned but caſt them down to Hell.</hi> And therefore that He hath not dealt ſo with all Mankind, is to be aſcribed to His meer Mercy.</p>
+            <p>Q. <hi>Sin being ſo great an Evil, becauſe it is an offence againſt God; Tell me therefore what God is?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> God is a Spirit, Uncreated, Unchang<g ref="char:EOLhyphen"/>able, from Everlaſting to Everlaſting, Moſt Holy and Wiſe, Juſt and Merciful, True and Powerful; being in all Places, and ſeeing all things at once.</p>
+            <p>Firſt, God is not a Bodily Subſtance, but a Spiritual Subſtance, <hi>Joh.</hi> 4.24. ſaith Chriſt himſelf, <hi>God is a Spirit.</hi>
+            </p>
+            <p>Q. <hi>What can you gather from thence?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thence I gather three things eſpecially,</p>
+            <p n="1">1. That God muſt be worſhipped in Spirit and in Truth, that we muſt glorifie God with our Spirits (or Soules) as well as with
+<pb n="5" facs="tcp:29985:6"/>our Bodies, thinking Highly and Honoura<g ref="char:EOLhyphen"/>bly of him, as well as ſpeaking ſo.</p>
+            <p n="2">2. That 'tis Vain and Ridiculous as well as impious to make any Picture or Image of God: for no Image can be like a Spirit: let men make ſomething like their Souls before they undertake to make the likeneſs of their God.</p>
+            <p n="3">3. That they are Fools, or worſe than ſuch, that will not believe there is a God, becauſe they never ſaw Him; For a Spirit, as ſuch, cannot be ſeen.</p>
+            <p>Secondly, God is a Spirit Uncreated; for 'tis He that is the Creatour. <hi>In the Be<g ref="char:EOLhyphen"/>ginning God created the Heaven and the Earth. Gen.</hi> 1.1.</p>
+            <p>Q. <hi>What learn you from that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Thus much: That the Creatures re<g ref="char:EOLhyphen"/>ceived all their perfection from God, but he received none from them.</p>
+            <p>Thirdly, God is Unchangeable; Mal. 3.6. <hi>I the Lord change not.</hi> Jam. 1.17. <hi>With him is no variableneſs, nor ſhaddow of turning.</hi>
+            </p>
+            <p>Q. <hi>What learn you from hence?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That we ſhould be conſtant in the way of Religion and Obedience; For all thoſe Attributes of his, (his Greatneſs and Goodneſs and the reſt) that ſhould engage us to his Service and encourage us in it, are the ſame at all times.</p>
+            <p n="2">
+               <pb n="6" facs="tcp:29985:7"/> 2. That we ſhould poſſeſs our ſelves in Pa<g ref="char:EOLhyphen"/>tience, and not be diſcontented at any changes we meet with in the World: for God on whom all our Happineſs dependeth is ſtill the ſame; as able to help us, and as ready to receive us, if we return unto him, as ever he was.</p>
+            <p>Fourthly, God is Eternal, Iſa. 40.28. <hi>The Everlaſting God fainteth not neither is weary,</hi> Pſal. 90.2. <hi>From everlaſting to ever<g ref="char:EOLhyphen"/>laſting thou art God.</hi>
+            </p>
+            <p>Q. <hi>What do you gather from that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That All Creatures are as nothing in Compariſon of Him; for they had their beginning, and could not continue but by his Power and Providence.</p>
+            <p n="2">2. That God hath an Eternity to do all his works in, That he can puniſh the wicked with Everlaſting puniſhment, and give his Ser<g ref="char:EOLhyphen"/>vants Everlaſting Joy.</p>
+            <p>Fifthly, God is moſt Holy: Exod. 15.11. <hi>Glorious in Holineſs.</hi> Iſa. 6.3. <hi>Holy, holy, holy, is the Lord of Hoſts.</hi>
+            </p>
+            <p>Q. <hi>What Gather you from this?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That he is holy in all his works, and cannot be the Author or approver of any Sin.</p>
+            <p n="2">2. That an unholy Perſon is not fit to enjoy Him in Heaven.</p>
+            <p n="3">3. That we muſt be Holy becauſe the Lord our God is holy. 1 <hi>Pet.</hi> 1.16.</p>
+            <pb n="7" facs="tcp:29985:7"/>
+            <p> Sixthly, God is moſt Wiſe. Jer. 10.12. <hi>By his wiſdom he eſtabliſhed the world.</hi> And, <hi>His <g ref="char:V">Ʋ</g>nderſtanding is infinite,</hi> Pſal. 147.5.</p>
+            <p>Q. <hi>What may we gather from it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That God knows what is beſt for us in the world.</p>
+            <p n="2">2. That he alone can give us the true wiſ<g ref="char:EOLhyphen"/>dom; and</p>
+            <p n="3">3. That it is our wiſeſt courſe to do as he commands us in his Holy Word. <hi>The fear of the Lord that is wiſdom, and to depart from Evil is underſtanding,</hi> Job 28.28.</p>
+            <p>Seventhly, God is moſt Juſt. Iſa. 45.20. <hi>A juſt God and a Saviour.</hi> Pſal. 92.15. <hi>The Lord is upright, and there is no unrighteouſ<g ref="char:EOLhyphen"/>neſs in Him.</hi>
+            </p>
+            <p>Q. <hi>What can you conclude from it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That he will do no unjuſtice him<g ref="char:EOLhyphen"/>ſelf nor approve of it in his Creatures. <hi>The Righteous Lord loveth righteouſnes,</hi> Pſal. 11.7. <hi>And will puniſh the wicked for their iniquity,</hi> Iſa. 13.11.</p>
+            <p n="2">2. That <hi>He will judge the told in Righteouſ<g ref="char:EOLhyphen"/>neſs,</hi> Pſal. 9.8.</p>
+            <p n="3">3. That <hi>the unrighteous ſhall not inherit the Kingdom of God.</hi> 1 Cor. 6.9.</p>
+            <p>Eighthly, God is Merciful Exod. 34.6. <hi>The Lord God Merciful and Gracious.</hi> Eph. 2.4. <hi>God who is rich in mercy.</hi>
+            </p>
+            <pb n="8" facs="tcp:29985:8"/>
+            <p> Q. <hi>VVhat learn you from that?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Several things: 1. That we muſt ſeek to him in our trouble, whether ſhould Men flee for help in Miſery, but to Him who is the God of all Mercy? Pſal. 50.15. <hi>God ſaith, Call upon me in the time of Trouble.</hi>
+            </p>
+            <p n="2">2. That they are utterly inexcuſable that refuſe to ſerve a Mercifull God.</p>
+            <p n="3">3. That we muſt be Merciful, <hi>becauſe our Father in Heaven is Merciful.</hi> Luke 6.36.</p>
+            <p>Ninthly, God is moſt True. Exod 34.6. <hi>Abundant in Goodneſs and Truth.</hi> A <hi>God that cannot Lye.</hi> Titus 1.2.</p>
+            <p>Q. <hi>VVhat do you gather thence?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That All is true that his Word tells us, and that therefore his Threatnings a<g ref="char:EOLhyphen"/>gainſt the wicked, and his Promiſes to the godly ſhall be accompliſhed in time (in that way as they are made.)</p>
+            <p n="2">2. That He is a Lover of Truth, and that <hi>Lying Lips are an abomination to Him.</hi> Prov. 12.22.</p>
+            <p>Tenthly, God is moſt Powerful. 2. Cor. 6.18. <hi>Saith the Lord Almighty.</hi> 1. Chron. 29.19. <hi>In thy Hand is all Power and Might.</hi>
+            </p>
+            <p>Q. <hi>VVhat follows from this?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That we are ſafe enough if God de<g ref="char:EOLhyphen"/>fend us, whatſoever dangers we may be in.</p>
+            <p n="2">2. That he can deliver us out of the greateſt Diſtreſſes, and make a way for us to Eſcape,
+<pb n="9" facs="tcp:29985:8"/>when we can ſee no way for it.</p>
+            <p n="3">3. That All out States and Concerns are in his hand: He is able to ſave and to deſtroy. <hi>Jam.</hi> 4.13.</p>
+            <p>Eleventhly, God is preſent in all Places. <hi>VVhither ſhall I flee from thy Preſence,</hi> Pſal. 139.7. And Jer. 23.24. <hi>Do not I fill Heaven and Earth ſaith the Lord?</hi>
+            </p>
+            <p>Q. <hi>VVhat do you gather from thence?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That no place can ſecure us from his Diſpleaſure, if we provoke him by wick<g ref="char:EOLhyphen"/>ed Courſes.</p>
+            <p n="2">2. That if we ſerve and pleaſe him (in the main) we may be aſſured that we have a Friend at hand wherever we be, that is every way ſufficient for us.</p>
+            <p n="3">3. That ſeeing we cannot flee from him, we have no way left for our ſafety, but to return unto him in true Obedience, and to beg his Mercy, Protection and Salvation.</p>
+            <p>Twelfthly, God ſeeth all things at once. Job 28.24. <hi>He looketh unto the Ends of the Earth, He ſeeth under the whole Heaven.</hi> Heb. 4.13. <hi>All things are open unto his Eyes with whom we have to do.</hi>
+            </p>
+            <p>Q. <hi>VVhat do you infer from hence?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> That he is acquainted with all our ways, <hi>Pſal.</hi> 139.3. and that therefore we are concerned to take heed to our ways, and Rule our ſelves according to his Word. <hi>Pſal.</hi> 119.9.</p>
+            <p n="2">
+               <pb n="10" facs="tcp:29985:9"/> 2. That it is a folly for Men to hide their Sins by lies or excuſes, or any other ways.</p>
+            <p n="3">3. That we want for Encouragement in ſecret Duties: VVe can do no good ſo pri<g ref="char:EOLhyphen"/>vately but our God takes notice of it: He can ſee his Servants in ſecret, and will (one day through his Mercy) reward them open<g ref="char:EOLhyphen"/>ly, <hi>Matth.</hi> 6.6.</p>
+            <p>Q. <hi>God being ſuch a God as you have now ſaid and proved, VVhat can you moſt eaſily conclude from it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> I conclude from Hence, that He is a glorious God indeed, and hath none like unto him; that he is every way fit to be the Ruler of Heaven and Earth, the Diſpoſer of all Things, the Judge of all Men, the Reven<g ref="char:EOLhyphen"/>ger of VVickedneſs, the Rewarder of VVell<g ref="char:EOLhyphen"/>doing, the Portion and Felicity of all his Ser<g ref="char:EOLhyphen"/>vants.</p>
+            <p>Q. <hi>God being ſo great and glorious, Is it not enough that we Love and Honour Him? If we do ſo, what matter is it how we behave our ſelves as to our Neighbours or our Governours, or how we ſtand affected towards Them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, VVe muſt keep a good Conſcience towards Men alſo; in <hi>Acts</hi> 14.16. <hi>Paul</hi> did exerciſe himſelf thereunto, to have a Conſci<g ref="char:EOLhyphen"/>ence void of offence towards God, and to<g ref="char:EOLhyphen"/>wards Men. Our Saviour alſo teaches us to do as we would be done by, <hi>Matth.</hi> 7.12.
+<pb n="11" facs="tcp:29985:9"/>So, 1 <hi>John</hi> 4.21. <hi>This Commandment we have of him, that he who loveth God ſhould love his Brother alſo.</hi>
+            </p>
+            <p>And for the other, St. <hi>Paul</hi> tells Chriſtians they muſt needs be ſubject, not only for wrath but alſo for Conſcience ſake, <hi>Rom.</hi> 13.5.</p>
+            <p>St. <hi>Peter</hi> alſo joyns together <hi>Fear God and Honour the King,</hi> 1 Pet. 2.17. that none may think he doth the one as he ought, while he refuſeth to do the other.</p>
+            <p>Q. <hi>Having told me from Scripture what God is, tell me alſo who is God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The Father, and the Son, and the Holy Ghoſt, <hi>Mat.</hi> 28.19. <hi>Go</hi> (ſaith Chriſt to his Apoſtles) <hi>Teach all Nations, baptizing them in the name of the Father, and of the Son, and of the Holy Ghoſt.</hi>
+            </p>
+            <p>Q. <hi>How doth this prove Each of them to be true and very God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It proves it unanſwerably and plainly too: For,</p>
+            <p n="1">1. We are obliged to worſhip and ſerve (in a Religious Manner) <hi>Him</hi> in whoſe Name we are Rightly Baptized. And there<g ref="char:EOLhyphen"/>fore St. <hi>Paul</hi> would not have it be thought that he Baptized any in his own Name, 1 <hi>Cor.</hi> 1.15.</p>
+            <p n="2">2. Faith and Baptiſme are Joyned together <hi>Epheſ.</hi> 4.5. But we are to believe in None
+<pb n="12" facs="tcp:29985:10"/>but God, therefore not to be Baptized in the Name of any but God.</p>
+            <p n="3">3. Baptiſme (truly ſo called) is but one; as 'tis ſaid in the ſame Text. But if either of thoſe Perſons were a meer Creature, there would be two ſorts of Baptiſm.</p>
+            <p>For, 'Tis confeſſed by all Chriſtians, that the Father of our Lord Jeſus Chriſt is true and very God; As Chriſt himſelf ſaid, <hi>I thank thee O Father, Lord of Heaven and Earth,</hi> Matth. 11.25.</p>
+            <p>Now, If the Son of the Father, Chriſt himſelf, or the Holy Ghoſt, were but a Creature, then the Baptizing in the Name of of thoſe three, would bring in (apparently) <hi>Two Baptiſmes</hi> (vaſtly different alſo) One in the Name of God, the other in the Name of a meer Creature.</p>
+            <p>And if either of thoſe Perſons be but a Creature, our Lord in commanding the Apo<g ref="char:EOLhyphen"/>ſtles to Baptize in the Name of his Father, and of himſelf, and of the Holy Ghoſt, ſhould command them to Baptiſe (in the ſame man<g ref="char:EOLhyphen"/>ner and at the ſame time) in the <gap reason="illegible" resp="#UOM" extent="1 span">
+                  <desc>〈…〉</desc>
+               </gap> the glorious God, and a meer Creature; and ſo ſhould give the ſame glory to the one as to the other therein; than which what can ever be imagined more wickedly abſurd and un<g ref="char:EOLhyphen"/>reaſonable.</p>
+            <pb facs="tcp:29985:10"/>
+            <pb facs="tcp:29985:11"/>
+            <p>
+               <pb n="13" facs="tcp:29985:11"/> Q. <hi>What Scriptures are there that do prove particularly the Godhead of the Son?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Very many, and amongſt them theſe two. <hi>Rom.</hi> 9.5. The Apoſtle ſpeaking of Chriſt, ſaith, <hi>He is over all God bleſſed for ever. Joh.</hi> 20.28. The Apoſtle ſaith unto him, <hi>My Lord and my God.</hi>
+            </p>
+            <p>Q. <hi>What places prove the Holy Ghoſt to be true and very God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Amongſt others, theſe two eſpecially, 1 <hi>Cor.</hi> 2.10. <hi>The Spirit ſearcheth all things, even the deep things of God:</hi> Now <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> 
+               <hi>deep things of God,</hi> is a Word that extendeth to all things in God, His Nature, Attributes, Purpoſes and Providences, (for there is no Exception or Limitation added) ſo to <hi>ſeurch</hi> them, is throughly to know and underſtand them. As God's infallible knowledge of what is in Man, is call'd in Scripture <hi>his ſearching the Heart.</hi> Thus the Spirit (the Holy Ghoſt ſo called) ſearcheth all things, yea <hi>the deep things of God;</hi> which certainly no Creatures are able to do: In reſpect of them, that of <hi>Paul</hi> is ever true, That <hi>God's Judgments are unſearchable and his ways paſt finding out.</hi> Rom. 11.33.</p>
+            <p>So in <hi>Iſa.</hi> 6.8, 9. What the Lord God ſaid to the Prophet, the Apoſtle applies to the Holy Ghoſt, ſaying, <hi>Well ſpake the Holy Ghoſt by</hi> Eſaias <hi>the Prophet,</hi> Acts 28.25.
+<pb n="14" facs="tcp:29985:12"/>And that very expreſſion is a clear proof, for it was God that ſpake by the Prophets, Jer. 1.9. <hi>I have put my words in thy mouth.</hi> There<g ref="char:EOLhyphen"/>fore the Holy Ghoſt is God alſo, of the ſame ſubſtance with the Father and the Son.</p>
+            <p>Q. <hi>Then there ſhould ſeem to be three Gods; and why can it be ſaid there is but one God, when each of theſe three Perſons is God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> They are three Perſons, and yet but one God, becauſe one and the ſame Divine Nature is in each of them: which appears by this that the ſarne Divine Honour is to be given to each of them: for we are to Baptize in the Name of each of them; and we are un<g ref="char:EOLhyphen"/>changeably engaged to the Religious wor<g ref="char:EOLhyphen"/>ſhip and ſervice of him in whoſe Name we are to be Baptized; and therefore St. <hi>Paul</hi> abhorred the thoughts of Baptizeing any in his own Name, 1 <hi>Cor.</hi> 1.15.</p>
+            <p>And as Scripture tells us, (which Reaſon it ſelf may inform us of) that there is One God (or but one God, as there is but one Mediator Chriſt Jeſus) 1 <hi>Tim.</hi> 2.5.</p>
+            <p>So it aſſures us that each of theſe Perſons is true and very God, ſo that both are certainly true.</p>
+            <p>Q. <hi>But how can this be? we cannot conceive ſo ſtrange a thing?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 'Tis true indeed, this Doctrine of the Trinity is the Higheſt Myſtery in holy Story;
+<pb n="15" facs="tcp:29985:12"/>And it were no Myſtery at all if we were able to comprehend it, and conceive the manner of it. Yet we have Reaſon to believe what Scripture tells us, tho' it be that which is above the reach of humane Reaſon. As we may ſafely believe that the Dead ſhall be raiſ<g ref="char:EOLhyphen"/>ed to Life (becauſe of Scripture Teſtimony, <hi>Joh.</hi> 5.28. <hi>All that are in the Graves ſhall hear Chriſts Voice, and come forth</hi>) Though we cannot conceive the manner of the Refur<g ref="char:EOLhyphen"/>rection, nor anſwer all curious queſtions that may be made about it.</p>
+            <p>Q. <hi>What is the Rule and Pattern of Prayer?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The Lords Prayer. <hi>After this manner Pray ye,</hi> &amp;c. in <hi>Matth.</hi> 6.9.</p>
+            <p>Q. <hi>Is it therefore only a Rule of Prayer?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, it is alſo a Prayer it ſelf and to be uſed as ſuch. For our Saviour ſaith thus, <hi>Luk.</hi> 11.2. <hi>when ye Pray, ſay, Our Father</hi> &amp;c. that is, <hi>Say theſe words.</hi>
+            </p>
+            <p>Q. <hi>Is it lawful to pray in a Form, or to uſe the ſame Expreſſions in Prayer, over and over?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes. For the Lord's Prayer is ſuch a Form, and is to be uſed in thoſe very ex<g ref="char:EOLhyphen"/>preſſions to the VVorld's End. <hi>Say, Our Father,</hi> and ſo forth. And Chriſt's Example is beyond exception herein, <hi>He prayed the third time ſaying the ſame words,</hi> (Matth. 26.44.) So <hi>Mark</hi> 14.39. <hi>And again He went away and prayed ſpeaking the ſame words.</hi>
+               <pb n="16" facs="tcp:29985:13"/>Surely he had the Spirit indeed, and could as eaſily have prayed in other words, if it had been better ſo to do.</p>
+            <p>Q. <hi>But what need we pray; for God knows our wants without our Prayers, and what he gives us, he gives for his own goodneſs ſake and not for our Prayer's ſake.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes, we muſt pray for all that, becauſe he hath commanded us to Pray; Pſal. 50.15. <hi>Call upon me.</hi> Iſa. 55.6. <hi>Seek ye the Lord while he may be found. He is a God that hear<g ref="char:EOLhyphen"/>eth Prayer,</hi> Pſal. 65.2. <hi>Ask and ye ſhall have,</hi> Matth. 7.7. (that is, in Gods due time.) And though he had promiſed Mercies to his People yet for thoſe <hi>things he would be ſought unto,</hi> Ezek. 36, 37.</p>
+            <p>Q. <hi>How many Sacraments are mentioned for Chriſtians to partake of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Two only: Baptiſme, and the Lords Supper.</p>
+            <p>Q. <hi>May Baptiſme be adminiſtred in the Name of a meer Creature?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. For we are by Baptiſine Conſe<g ref="char:EOLhyphen"/>crated to the Holy VVorſhip and Service of Him, in whoſe Name we are Baptized. VVherefore <hi>Paul</hi> abhorred that any ſhould think he Baptized in his own Name. 1 <hi>Cor.</hi> 1.13, 14, 15.</p>
+            <p>Q. <hi>May Infants be Baptized?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes. For the command to Baptize the
+<pb n="17" facs="tcp:29985:13"/>Nations, makes for it: for the word [Nati<g ref="char:EOLhyphen"/>ons] includeth Infants: They therefore (being of profeſſing Parents) may be Bap<g ref="char:EOLhyphen"/>tized, <hi>Matth.</hi> 28.19. And tho' <hi>Teaching</hi> be mentioned alſo, yet that affords no Reaſon to the contrary. For tho' Infants be not capable of being taught, yet they are capable of being conſecrated to God by Baptiſme.</p>
+            <p>Q. <hi>VVhy and how ſhould Chriſtians partake of the Lords Supper?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> For Chriſt's command ſake and in Re<g ref="char:EOLhyphen"/>membrance of Him, <hi>Luk.</hi> 22.19.</p>
+            <p>Q. <hi>VVhat muſt they do on that occaſion?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> As they muſt rely in Chriſt for Accep<g ref="char:EOLhyphen"/>tance, and beg acceptance for his ſake; ſo they muſt be in Charity with Men, and en<g ref="char:EOLhyphen"/>deavour to renew their Repentance, and Reſolutions of Obedience: For they do in a ſpecial manner draw near unto Chriſt <hi>therein, who hath</hi> given us the beſt Example of good Living, and the greateſt engagements and encouragements to it. And of theſe things a<g ref="char:EOLhyphen"/>foreſaid we muſt Examine our ſelves, 1 <hi>Cor.</hi> 11.28.</p>
+            <p>Q. <hi>But is the Bread in the Sacrament, the real and ſubſtantial Body of Chriſt? or is Chriſt preſent therewith or therein, as to his Bodily preſence?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No certainly. Chriſt is not now to be ſeen by us in Heaven much leſs on Earth. <hi>Ye
+<pb n="18" facs="tcp:29985:14"/>ſee him not,</hi> ſaith St. <hi>Peter</hi> twice in a Verſe, 1 Pet. 1.8. But if the Sacramental bread were the very Body of <hi>Chriſt,</hi> we ſhould ſee Him as often as we ſee That.</p>
+            <p n="2">2. VVe ſee the Bread, to be for ſubſtance Bread indeed, and nothing elſe: And Scrip<g ref="char:EOLhyphen"/>ture doth not require us to believe any thing to be other than what we ſee it to be. The Diſciples had not (nor did they need to have) any better proof, of <hi>Lazarus</hi> his being raiſed from the dead, than this: that they ſaw him Alive, after he had been Dead.</p>
+            <p>Q. <hi>But how doth Chriſt then ſay, [This is My Body.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It is ſpoken Figuratively; that is, 'tis his Body Sacramentally; a Sign, Token, Repreſentation, and Memorial of it, as the Apoſtle ſaith [<hi>That Rock was Chriſt,</hi> 1 <hi>Cor.</hi> 10.4.] yet no man thinks therefore that <hi>Chriſt</hi> was really a Rock, much leſs that par<g ref="char:EOLhyphen"/>ticular Rock mentioned by <hi>Moſes</hi> in <hi>Exod.</hi> 17.</p>
+            <p>Q. <hi>VVho is Chriſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> The only begotten Son of God, even the Father, <hi>John</hi> 1.18. <hi>Jeſus Chriſt the Son of the Father,</hi> in 2 Epiſt. <hi>John</hi> the 3 verſe.</p>
+            <p>Q. <hi>VVhat a Son is He?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He is ſuch a Son as is true and very God, of the ſame Subſtance with his Father. <hi>Heb.</hi> 1.8. <hi>
+                  <g ref="char:V">Ʋ</g>nto the Son he ſaith, thy Throne O God, is for ever and ever.</hi> And all muſt
+<pb n="19" facs="tcp:29985:14"/>honour the Son even as they honour the Fa<g ref="char:EOLhyphen"/>ther, <hi>John</hi> 5.23.</p>
+            <p>Q. <hi>VVhat is Chriſt.</hi>
+            </p>
+            <p>
+               <hi>A. Chriſt</hi> is God and Man at once; Rom. 9.5. <hi>Of whom came Chriſt according to the Fleſh who is over all God bleſſed for ever,</hi> and in 1 Tim. 3.16. <hi>He that was believed on in the world and received up into glory,</hi> (which can be none but Chriſt) <hi>is ſaid to be God ma<g ref="char:EOLhyphen"/>nifeſted in the Fleſh.</hi> And in Matth. 1. we read of his Birth, <hi>And the Angel ſaid to the Vir<g ref="char:EOLhyphen"/>gin</hi> Mary, <hi>that ſhe ſhould bring forth a Son, and his Name ſhould be called Jeſus,</hi> Matth. 1.21, 23.</p>
+            <p>Q. <hi>Why did the Son of God became Man?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Jeſus Chriſt came into the World to ſave Sinners: 1 <hi>Tim.</hi> 1.15.</p>
+            <p>Q. <hi>But why ſhould he become Man for the ſaving of Sinners?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Becauſe he was to ſave them in a way of ſuffering for them. He came to redeem them from the curſe of the Law, being made himſelf a Curſe for them, <hi>Gal.</hi> 3.13. <hi>He came to give his Life a Ranſom for many:</hi> Matth. 20.28. as St. <hi>Peter</hi> alſo ſaith, <hi>Chriſt ſuffered for Sins, the juſt for the unjuſt, that he might bring us to God,</hi> 1 Pet. 3.18</p>
+            <p>And the Prophet foretold that the Saviour of Mankind ſhould be true man, and be born of a Virgin, which was fulfilled in Chriſt.
+<pb n="20" facs="tcp:29985:15"/>
+               <hi>Iſa.</hi> 7.14. compared with <hi>Matth.</hi> 1.23.</p>
+            <p>Q. <hi>What may we learn from theſe things?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. That Man was fallen into a dreadfull Depth of Miſery by Sin; ſeeing he hath need of ſuch a mighty Saviour to deliver him from the guilt and puniſhment thereof.</p>
+            <p n="2">2. That our own works and ſervices are not ſufficient to ſave us: for then what need of Chriſt to ſave us through the merit of his Sufferings.</p>
+            <p n="3">3. That Chriſt having done and ſuffered ſo much for Sinners, therefore Returning Sinners, fleeing to him for Mercy, ſhall be ſure to find it for his ſake: He himſelf ſaith, <hi>whoſoever cometh unto me, I will in no wiſe caſt out;</hi> Joh. 6.37.</p>
+            <p>Q. <hi>But why would Chriſt become ſubject to Death, and ſuch extreme Sorrows, for Sinners ſake?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It was his Love that moved him thus to ſuffer for them; He loved us, and gave him<g ref="char:EOLhyphen"/>ſelf for us an Offering and a Sacrifice as we read in <hi>Eph.</hi> 5.2.</p>
+            <p>Q. <hi>But how could it be Juſt, that Chriſt ſhould ſuffer ſo great Miſeries; for he being free from evil of Sin,</hi> (Holy, Harmleſs, Un<g ref="char:EOLhyphen"/>defiled, <hi>in</hi> Heb. 7.) <hi>did not deſerve any evil of Suffering?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Very ſure; ſince Chriſt was ſuch an one, he could deſerve no Suffering; and therefore
+<pb n="21" facs="tcp:29985:15"/>could not juſtly be expoſed to ſuch Sufferings upon <hi>his own</hi> Account; he became therefore a Sufferer upon <hi>the Account of Sinners;</hi> un<g ref="char:EOLhyphen"/>dertaking for them, and offering himſelf as the great High Prieſt of his Church and Peo<g ref="char:EOLhyphen"/>ple, <hi>Eph.</hi> 5.2. <hi>He gave himſelf for us, an Offering and a Sacrifice.</hi> Heb. 7.26. <hi>Such a High Prieſt became us as is Holy, Harmleſs, <g ref="char:V">Ʋ</g>ndefiled,</hi> and in 1 Pet. 3.18. <hi>Chriſt ſuffer<g ref="char:EOLhyphen"/>ed for Sins, The juſt for the unjuſt.</hi>
+            </p>
+            <p>Q. <hi>But was it not a wrong to Him to be ſuch a Sufferer?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He ſuffered indeed wrongfully from Men, becauſe he deſerved not thoſe Evils which they layed upon by crucifying him, by re<g ref="char:EOLhyphen"/>proaching him and the like that we read of in the Goſpel. But it was no wrong to be ex<g ref="char:EOLhyphen"/>poſed thereto by the appointment of his Hea<g ref="char:EOLhyphen"/>venly Father: who was infinitely Juſt and Holy, and yet delivered Him (to puniſh<g ref="char:EOLhyphen"/>ment that is) for our offences: as in <hi>Rom</hi> 4.25. And as he came to do the will of God his Father, <hi>Lo, I come to do thy will,</hi> Heb. 10.9. So it was his own will to ſuffer for ſin<g ref="char:EOLhyphen"/>ners, and he came for that purpoſe into the World. <hi>The Son of man,</hi> ſaid Chriſt of him<g ref="char:EOLhyphen"/>ſelf, <hi>came to give his Life a Ranſome for many,</hi> Matth. 20.28.</p>
+            <p>Q. <hi>What may this teach us?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. It may teach us, that Chriſt was the
+<pb n="22" facs="tcp:29985:16"/>great Example of Lowlineſs and Love; and to think nothing too much to do for his glory, whoſe Loving-kindneſs moved him to ſtoop ſo Low, and ſuffer ſo much for the ſake and Salvation of Sinners.</p>
+            <p n="2">2. It may aſſure us, that Chriſt who in his abundant Love, came to ſeek and to ſave loſt Sinners (and to ſave them in a way of ſuffer<g ref="char:EOLhyphen"/>ing) will not think Scorn of them when they Humbly and Penitently ſeek Him.</p>
+            <p n="3">3. And eſpecially it ſhould move us to think often of Heaven, and to Thirſt for that bleſſed place, where we may better under<g ref="char:EOLhyphen"/>ſtand Chriſt's wonderful Love, and give him the glory thereof for evermore, ſaying with thoſe in <hi>Rev.</hi> 5. <hi>Bleſſing and Honour and Glo<g ref="char:EOLhyphen"/>ry and Power be unto him that ſitteth on the Throne, and to the Lamb for ever and ever.</hi>
+            </p>
+            <p>Q. <hi>How often did Chriſt offer up himſelf a Sacrifice for Sin?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He did ſo but <hi>once</hi> (on the Croſs, when he gave his Life a Ranſom for many) For ſo the Apoſtle tells us ſaying, <hi>He needed not daily to offer up Sacrifice, for this he did once, when he offer'd up himſelf,</hi> Heb. 7.27. So Heb. 9.28. <hi>Chriſt was</hi> once <hi>offered to bear the Sins of many.</hi>
+            </p>
+            <p>Q. <hi>What may this teach us?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. It may teach us the Horrible Folly and Impiety of the <hi>Popiſh</hi> Religion, in the
+<pb n="23" facs="tcp:29985:16"/>Principal part and ſervice of it; The Maſs (as they call it) wherein they pretend to of<g ref="char:EOLhyphen"/>fer up Chriſt as a Real proper and propitiato<g ref="char:EOLhyphen"/>ry Sacrifice for ſin. Whereas Chriſt's offer<g ref="char:EOLhyphen"/>ing is paſt long ſince; and it was but once, ſaith the Apoſtle in thoſe places. But if <hi>Chriſt</hi> be really offered as a Sacrifice for Sin, ſo often as their Maſſes are uſed, he may be offered many times, yea, ten Thouſand times ten Thouſand. For there may be Multitudes of Maſſes in the ſame Hour. And there is <hi>no Reaſon</hi> why the Apoſtle's <hi>[once</hi> ſhould be ſhould be thought to ſignifie ſo many thouſand times; and as <hi>little,</hi> that we ſhould think it meaneth any more than once indeed.</p>
+            <p n="2">2. It may teach us the Excellency and ſuf<g ref="char:EOLhyphen"/>ficiency of <hi>Chriſt</hi>'s Sacrifice ſince it need be offered but once: as the Repetition of the other Sacrifices ſhewed the Imperfection of them.</p>
+            <p>Q <hi>But how could Chriſt's Death and Sacri<g ref="char:EOLhyphen"/>fice be ſufficient for the Sins of ſo many, ſeeing he dyed but once and offered himſelf but once?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes very well: for as he bore the ut<g ref="char:EOLhyphen"/>moſt Miſery, even the curſe of the Law for Sin, <hi>Gal.</hi> 3.13. So he that bare it was a Perſon of Infinite Excellency, being the Son of God, whom all the Angels of Heaven Worſhip, and, in a word, very God of the ſame Subſtance with his Father, 1 <hi>Joh.</hi> 5.20.
+<pb n="24" facs="tcp:29985:17"/>
+               <hi>Heb.</hi> 1.6. and therefore it was more for <hi>Chriſt</hi> himſelf to Dye and be a Sacrifice for Mens Sins, than for all the Angels of heaven to do ſo (if ſuch a thing had been poſſible.</p>
+            <p>And accordingly his Love (which was eſpecially diſcovered in his Dying and offer<g ref="char:EOLhyphen"/>ing himſelf, <hi>He loved us, and gave himſelf for us,</hi> Eph. 5.2.) I ſay, this Love of his towards ſinners is ſaid to be ſuch as paſſeth Knowledge, that is all created Knowledge. (ſo that the moſt enlarged Underſtandings of Men or Angels are not able fully to conceive, or comprehend it. <hi>Eph.</hi> 3.19.)</p>
+            <p>Q. <hi>What muſt a Chriſtian do when he hath done Amiſs, eſpecially in any groſs manner to the Diſhonour of his holy Profeſſion?</hi>
+            </p>
+            <p>
+               <hi>Muſt he think to make God any</hi> amends <hi>by doing Better afterwards? or hope to make an attonement for himſelf, and Reconcile himſelf to God, by performing of Duties, or enduring (voluntarily) any Sufferings or Hardſhips?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No by no means: theſe are vain Ima<g ref="char:EOLhyphen"/>ginations, and proceed from Pride, and Ig<g ref="char:EOLhyphen"/>norance of <hi>Chriſt,</hi> and his Sacrifice. 'Tis true indeed, They muſt Repent of their ſins (and muſt of their greateſt) and reſolves by God's help to Reform what is amiſs; Repent and turn from your Tranſgreſſions, <hi>Ezek.</hi> 18.30. They muſt take care of their Duties (in the main) and call <hi>Chriſt</hi> their Lord to
+<pb n="25" facs="tcp:29985:17"/>little purpoſe, if they do not take care to do as he commands them. They muſt alſo ſub<g ref="char:EOLhyphen"/>mit themſelves to God, in the affliction that he lays upon them. <hi>Jam.</hi> 4.7.</p>
+            <p>But withal (and above all) they muſt in this Caſe have Recourſe unto <hi>Chriſt,</hi> and flee unto him (in all Humility) by Faith and Prayer, as the Rock of their Salvation, and the Refuge of a guilty Soul: beſeeching their Heavenly Father to apply unto them the Infinite Merit of that All-ſufficient Sacrifice which his Son <hi>Chriſt Jeſus</hi> hath offered: Beg<g ref="char:EOLhyphen"/>ing mercy and acceptance for his Name-ſake in whom he is always well pleaſed, <hi>Mat.</hi> 3.17. For 'tis only through him that we can be accepted, <hi>Eph.</hi> 1.6. and <hi>He is the propiti<g ref="char:EOLhyphen"/>ation for our Sins,</hi> 1 Joh. 2.2. and <hi>He is the Lamb of God that taketh away the Sin of the World,</hi> Joh. 1.29. (in way of Sacrifice, he means, ſo as to remove the condemning Power of it from Penitent and Believing Sin<g ref="char:EOLhyphen"/>ners.</p>
+            <p>Q. <hi>By what may Sinners be made Righteous in the ſight of God?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By <hi>Chriſt</hi>'s Obedience imputed to them, Rom. 5.19. <hi>By the Obedience of one</hi> (ſpeak<g ref="char:EOLhyphen"/>ing of <hi>Chriſt</hi>) <hi>ſhall many be made righteous.</hi>
+            </p>
+            <p>Q. <hi>VVhy did not Chriſt remain under the power of Death.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> It was impoſſible that he ſhould be
+<pb n="26" facs="tcp:29985:18"/>holden of it; <hi>Acts</hi> 2.24. As the Scripture tells us, that he was the Son of God whom Angels worſhip, and therefore the Lord of Life and Death; So his Reſurrection is told us as plainly as his Dying. <hi>It is Chriſt that died, yea rather that is Riſen again,</hi> Rom. 8.34. and in 1 <hi>Cor.</hi> 15.3. <hi>He roſe again the third day according to the Scriptures.</hi>
+            </p>
+            <p>Q. <hi>VVhat <g ref="char:V">Ʋ</g>ſe is his Reſurrection of?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. It is of uſe to confirm us in the Be<g ref="char:EOLhyphen"/>lief of that Satisfactory Sacrifice, which in Dying he offered for the Sins of Men. What greater Teſtimony of acceptance could God the Father give than by Raiſing him from the Dead (eſpecially as it was a Reſurrection to Glory, and in order to his Aſcenſion into Heaven) <hi>Acts</hi> 3.15. <hi>Ye killed the Lord of Life whom God hath raiſed from the Dead, whereof we are witneſſes.</hi> See <hi>Acts</hi> 4.10.</p>
+            <p n="2">2. It ſerveth to aſſure us of the Truth of that Religion and Doctrine, which <hi>Chriſt</hi> hath Preached himſelf, and appointed his Apoſtles to preach to the World. For 'tis certain if <hi>Chriſt</hi> had not been a true Preacher he ſhould not have been raiſed from the dead, to pro<g ref="char:EOLhyphen"/>pagate and confirm his Doctrine: God never did Honour any Deceiver in ſuch a Manner; And if he ſhould, it would lay the World under a neceſſity being deceived by him; which may not be thought of the God of Truth and Holineſs.</p>
+            <p n="3">
+               <pb n="27" facs="tcp:29985:18"/> 3. It ſerveth to confirm the Doctrine of the Reſurrection of the Dead at the appointed time. For if the dead Riſe not (or not at all) then is not Chriſt raiſed, 1 <hi>Cor.</hi> 15, 16. He aroſe as the Head of his Church, and there<g ref="char:EOLhyphen"/>fore his People ſhall be raiſed in due time: <hi>Chriſt the firſt Fruits, afterwards they that are Chriſts at his coming.</hi> 1 Cor. 15.23.</p>
+            <p>Q. <hi>How did Chriſt (after his Reſurrection) Aſcend into Heaven? was it only in Mind and Affection?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No; He aſcended properly, ſo as to paſs from Earth to Heaven indeed.</p>
+            <p>
+               <hi>Q. Where is that proved?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Among many Scriptures, in theſe two, Mark 16.19. <hi>After the Lord had ſpoken to them, he was received up into Heaven</hi> (recei<g ref="char:EOLhyphen"/>ved from the place he was before in, into a<g ref="char:EOLhyphen"/>nother place even Heaven) Luk. 24.50. <hi>While he bleſſed them, he was parted from them, and received up into Heaven.</hi>
+            </p>
+            <p>Q. <hi>How is it ſaid by him, Matth.</hi> 28.20. I am with you always, <hi>if he be gone from Earth to Heaven?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes very well: for tho' he be gone into Heaven (and ſo hath left the Earth) in Reſpect of his <hi>Bodily</hi> Preſence, (as he ſaid in the Goſpel, <hi>the poor ye have always with you, but me ye have not always) yet</hi> in Reſpect of his <hi>Divine</hi> Preſence, he was always with his
+<pb n="28" facs="tcp:29985:19"/>People; and cannot be abſent from any place ſeeing he upholds all things; <hi>Heb.</hi> 1.3.</p>
+            <p>Q. <hi>What may theſe things ſerve for?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 1. They ſerve to confute the Papiſts, that ſay, <hi>the Body of Chriſt is really and proper<g ref="char:EOLhyphen"/>ly preſent in their Sacrament.</hi> Now Chriſt's Body is in Heaven, he is aſcended thither in that Reſpect. And when he comes from it, he ſhall come ſo as he went; that is, <hi>ſo as to be ſeen of men,</hi> Acts 1.10, 11. But he ſhall not ſo come till the Day of Judgment-. <hi>Je<g ref="char:EOLhyphen"/>ſus Chriſt, who ſhall judge the quick and the dead at his appearing,</hi> 2 Tim. 4.1.</p>
+            <p n="2">2. To confound the Atheiſts that mock at Heaven, as if it were an idle Fancy: But let them ſay what they pleaſe, and uſe their Wits to wrong their Souls, yet we may ſafely think that to be a Real place, and a happy place too, into which our bleſſed Lord is really aſcended.</p>
+            <p n="3">3. To teach Chriſtians to look beyond this preſent World, and raiſe their Thoughts to the things above, thirſting far a nearer com<g ref="char:EOLhyphen"/>munion with Chriſt, and to ſee the place where his Honour dwelleth.</p>
+            <p>Q. <hi>But (conſidering how many Enemies poor Chriſtians may meet with) was it not ill for them, that their Saviour ſhould leave the world?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No, not at all; For as he would have
+<pb n="29" facs="tcp:29985:19"/>them here to live by Faith, and not by Sight; ſo his care of them is as great now, as when he lived on Earth: <hi>he is the ſame yeſterday, to day and for ever,</hi> Heb. 13.8. and in <hi>John</hi> 16.7. he ſaith, <hi>'tis expedient for you, that I go away.</hi> Yea it was for their great advan<g ref="char:EOLhyphen"/>tage, and on their account, that he went to Heaven; For he ſaith in John 14.2. <hi>I go to prepare a place for you.</hi> And that Text in <hi>Heb.</hi> 9. is a wonderful ground of Comfort to all Godly Chriſtians, where he telleth them, (<hi>ver.</hi> 24.) <hi>that Chriſt is gone into Hea<g ref="char:EOLhyphen"/>ven it ſelf, now to appear in the preſence of God for them.</hi>
+            </p>
+            <p>Q. <hi>Shall Chriſt continue always in Heaven, whereto he is aſcended?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No; He ſhall come again to Judge the World: 2 <hi>Cor.</hi> 5.10. We ſhall all ſtand be<g ref="char:EOLhyphen"/>fore the Judgment-ſeat of Chriſt, <hi>Matth.</hi> 25.31. The Son of man ſhall come in his Glory, and all the Holy Angels with Him. And then ſhall he ſit upon the Throne of his Glory, and before him ſhall be gathered all Nations.</p>
+            <p>2 Tim. 4.1. —<hi>before the Lord Jeſus Chriſt who ſhall judge the quick and the dead, at his appearing. Behold he cometh with Clouds, and every Eye ſhall ſee him.</hi> Rev. 1.7.</p>
+            <p>Q. <hi>According to what ſhall men then be judged?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> According to their works. <hi>Behold I
+<pb n="30" facs="tcp:29985:20"/>come quickly, and my Reward is with me, to give to every man according as his work ſhall be.</hi> Rev. 22.12.</p>
+            <p>Q. <hi>But mens works, are ſome good and ſome bad, (in the beſt Men) and the beſt have done evil, as well as good in Gods ſight; ſhall they therefore be rewarded then for their good works, and be puniſhed alſo for their ſins?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. There ſhall then be no ſuch Mix<g ref="char:EOLhyphen"/>ture of good and evil upon them; but they ſhall be altogether Happy, or Miſerable, and be adjudg'd to Everlaſting Life (or Hap<g ref="char:EOLhyphen"/>pineſs) or elſe to everlaſting puniſhment, <hi>Matth.</hi> 25.46.</p>
+            <p>Q. <hi>How then is it ſaid that Chriſt will give every man according to his work?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> By [work] underſtand not a particu<g ref="char:EOLhyphen"/>lar work, but his ordinary way and Courſe, and the main Scope of his Converſation; whereby he is in the Main, a worker of Ini<g ref="char:EOLhyphen"/>quity or a worker of a Righteouſneſs, and ſhews himſelf to be a godly or ungodly Man: In which ſenſe the Prophet ſeemeth to ſpeak, when he ſaith [the <hi>work</hi> of Righteouſneſs ſhall <hi>be</hi> peace] or end in peace.</p>
+            <p>Q. <hi>Can any thing be ſo cloſely carried, as to eſcape the Eye and Judgement of Chriſt?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No; For God ſhall judge the ſecret Things of men by Jeſus Chriſt; as St. <hi>Paul</hi> ſaith, <hi>Rom.</hi> 2.16.</p>
+            <pb n="31" facs="tcp:29985:20"/>
+            <p> Q. <hi>Shall the ſins of good Chriſtians be diſ<g ref="char:EOLhyphen"/>covered to the world at Judgment.</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. For all their Treſpaſſes were for<g ref="char:EOLhyphen"/>given in this life, <hi>Col.</hi> 2.13. and if God for<g ref="char:EOLhyphen"/>give them in this life, Men have nothing to do with them in the life to come. Yea ſo far ſhall they be from having any Reproach for ſin at Chriſts coming, that they ſhall appear with him in Glory, <hi>Col.</hi> 3.4.</p>
+            <p>Q. <hi>Should Chriſt's true Servants be afraid of the Day of Judgment?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No; For the Judge is their Advocate; and his appearing is called, <hi>The bleſſed Hope,</hi> (becauſe they ſhall then enjoy the happineſs they hope for according to the Scriptures.) <hi>Tit.</hi> 2.13. 1 <hi>Joh.</hi> 2.1.</p>
+            <p>Q. <hi>But what if through ſome Temptations of the Devil, and ſnares of the world, they ſhould fall away, and fall off from all Grace and Re<g ref="char:EOLhyphen"/>ligion, would not the Day of Judgment prove a Day of Perdition unto them?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> 'Tis little to the purpoſe what the Day of Judgment might prove to them in <hi>ſuch a Caſe:</hi> For ſuch a thing is not to be ſuppoſed; they ſhall not utterly fall from Grace, and Periſh by any means whatſoever. For God will confirm them to the end, that they may be blameleſs at the Day of Chriſt, 1 <hi>Cor.</hi> 1.8. and in 1 <hi>Pet.</hi> 2.25. Chriſt is called the <hi>[Shep<g ref="char:EOLhyphen"/>herd]</hi> of their Souls. A word that import<g ref="char:EOLhyphen"/>eth
+<pb n="32" facs="tcp:29985:21"/>a ſpecial and particular care of them; and therefore ſure, he will not ſuffer them to go ſo far aſtray as to periſh at laſt.</p>
+            <p>Q. <hi>What will Chriſt ſay to the Rightcous at that Day?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> He will ſay to them, <hi>Come ye bleſſed of my Father, inherit the Kingdom prepared for you.</hi> Matth. 25.34.</p>
+            <p>Q. <hi>What to the Wicked?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Depart from me ye curſed into ever<g ref="char:EOLhyphen"/>laſting Fire, <hi>Matth.</hi> 25.41.</p>
+            <p>Q. <hi>Shall theſe ſentences be certainly executed accordingly?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes; For thoſe ſhall go away into e<g ref="char:EOLhyphen"/>verlaſting puniſhment, and the Righteous in<g ref="char:EOLhyphen"/>to Life Eternal, as we read expreſly, <hi>Matth.</hi> 25, 46.</p>
+            <p>Q. <hi>Shall the Righteous obtain that Happi<g ref="char:EOLhyphen"/>neſs by their own deſervings?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> No. For they were ſinners before, <hi>and were by nature Children of wrath,</hi> Eph. 2.3. But Chriſt hath merited for them, and for his ſake it is given them. The gift of God <gap reason="illegible" resp="#UOM" extent="1 word">
+                  <desc>〈◊〉</desc>
+               </gap> Eternal Life through Jeſus Chriſt, <hi>Rom.</hi> 6.2<gap reason="illegible" resp="#UOM" extent="1 letter">
+                  <desc>•</desc>
+               </gap>.</p>
+            <p>Q. <hi>Do the wicked deſerve ſuch puniſhment?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Yes; that Eternal Death of miſ<gap reason="illegible" resp="#UOM" extent="2 letters">
+                  <desc>••</desc>
+               </gap> is the Wages of Sin, <hi>Rom.</hi> 6.23.</p>
+            <p>Q. <hi>But how can it be juſt to puniſh Everlaſt<g ref="char:EOLhyphen"/>ingly for the offences of a little time?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> We read it ſhall be ſo with the wicked
+<pb n="33" facs="tcp:29985:21"/>and Impenitent. They ſhall go away into <hi>everlaſting puniſhment.</hi> And if God will have it ſo; 'tis certainly juſt that it ſhould be ſo (whether we can ſee the Equity of it or not) the Righteous God will act like himſelf, and may as ſoon ceaſe to be a God, as lay any <hi>unjuſt</hi> puniſhment upon a Creature, whether for ever, or for one Hour.</p>
+            <p>Q. <hi>But what conſiderations may be urged for the cleering of it?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> Theſe following (amongſt many others.)</p>
+            <p n="1">1. That the wicked ſhall dye a corporal Death no more after the Day of Judgment. Thoſe of them that were dead ſo many ages ſince, ſhall then be raiſed to Life, and ſo con<g ref="char:EOLhyphen"/>tinue for ever and ever. The Dead (that is, all the Dead) ſhall be raiſed incorrupti<g ref="char:EOLhyphen"/>ble, in 1 <hi>Cor.</hi> 15.52. But the wicked ſhall not have an incorruptible ſtate in Joy, there<g ref="char:EOLhyphen"/>fore <hi>certainly</hi> in puniſhment.</p>
+            <p n="2">2. The Deſert of an Offence, as to pu<g ref="char:EOLhyphen"/>niſhment, is not to be meaſured by the ſhort<g ref="char:EOLhyphen"/>neſs of the Time in which it was committed. An offence againſt a King committed in a Minute, may deſerve perpetual Impriſon<g ref="char:EOLhyphen"/>ment, and death.</p>
+            <p n="3">3. God, that Sin offendeth, is a God of In<g ref="char:EOLhyphen"/>finite and Eternal Majeſty and Excellency.</p>
+            <p n="4">4. God is not bound to be reconciled to Offenders, nor bound to pardon their offences
+<pb n="34" facs="tcp:29985:22"/>at any time, therefore he may juſtly puniſh them at all times, or for ever.</p>
+            <p>[Of this the Reader may ſee more in my Book, entituled, <hi>Everlaſting Fire no Fancy.</hi> Cap. 1. Sect. 3. pag. 19.]</p>
+            <p>Q. <hi>But will not the Terror of the Lord againſt the wicked, in that Day, ſtrike Terror into the Hearts of the Righteous?</hi>
+            </p>
+            <p>
+               <hi>A.</hi> If it do, it ſhall not be over-long: nor ſhall be at all, in any Miſerable Senſe or Manner; For they ſhall ſee themſelves ſafe in the Armes of his love, before the dread<g ref="char:EOLhyphen"/>ful Sentence ſhall be paſſed upon the wicked: yea they ſhall meet Chriſt with peace, when he is coming in the higher Regions; St. <hi>Paul</hi> tells us, in 1 <hi>Theſ.</hi> 4.17, that they ſhall be caught up together, to <hi>meet</hi> the Lord in the <hi>Air.</hi> O wondrous word indeed! Thrice Happy are they that ſhall partake of that Reli<g ref="char:EOLhyphen"/>city. And when once they have <hi>That,</hi> they ſhall ſoon have all the priviledges of Heaven, and be for Ever with the Lord, (1 <hi>Theſ.</hi> 4.17.) For which inexplicable Bleſſedneſs, the Fa<g ref="char:EOLhyphen"/>ther of Mercies fit us, more and more, for His Son Chriſt Jeſus ſake;</p>
+            <closer>To whom be Glory for Evermore.</closer>
+         </div>
+         <div type="prayer">
+            <pb n="35" facs="tcp:29985:22"/>
+            <head>The Lord's Prayer.</head>
+            <p>
+               <hi>OUr Father which art in Hea<g ref="char:EOLhyphen"/>ven, hallowed be thy Name. Thy Kingdom come. Thy Will be done, on Earth as it is in Heaven. Give us this Day our Dayly Bread. And forgive us our Debts as we for<g ref="char:EOLhyphen"/>give our Debtors. And lead us not into Temptation, but deliver us from Evil: for thine is the Kingdom, and the Power and the Glory for ever and ever,</hi> Amen.</p>
+         </div>
+         <div type="creed">
+            <head>The Creed.</head>
+            <p>
+               <hi>I Believe in God the Father Al<g ref="char:EOLhyphen"/>mighty, Maker of Heaven and Earth: And in Jeſus Chriſt his only Son our Lord, which was conceived
+<pb n="36" facs="tcp:29985:23"/>by the Holy Ghoſt, born of the Vir<g ref="char:EOLhyphen"/>gin</hi> Mary, <hi>ſuffered under</hi> Pontius Pilate, <hi>was Crucified, Dead and Bu<g ref="char:EOLhyphen"/>ried, he deſcended into Hell, the third Day he aroſe again from the Dead, he aſcended into Heaven, and ſitteth on the right hand of God the Father Al<g ref="char:EOLhyphen"/>mighty, from whence he ſhall come to judge both the quick and the dead: I believe in the Holy Ghoſt, the Holy Catholick Church, the Communion of Saints, the Forgiveneſs of Sins, the Reſurrection of the Body, and the Life Everlaſting,</hi> Amen.</p>
+         </div>
+         <div type="commandments">
+            <pb n="37" facs="tcp:29985:23"/>
+            <head>The Ten Commandments.</head>
+            <head type="sub">Exodus XX.</head>
+            <p>
+               <hi>GOD ſpake all theſe words, ſaying,</hi> I <hi>am the Lord thy God which brought thee out of the Land of</hi> Egypt, <hi>out of the Houſe of Bondage.</hi>
+            </p>
+            <p n="1">I. <hi>Thou ſhalt have no other Gods before me.</hi>
+            </p>
+            <p n="2">II. <hi>Thou ſhalt not make unto thee any graven image, or any likeneſs of any thing that is in heaven above, or that is in the earth beneath, or that is in the water un<g ref="char:EOLhyphen"/>der the earth; thou ſhalt not bow down thy ſelf to them, nor ſerve them; For I the Lord thy God am a jealous God, viſi<g ref="char:EOLhyphen"/>ting the iniquity of the Fathers upon the Children; unto the third and fourth</hi> Ge<g ref="char:EOLhyphen"/>neration <hi>of them that hate me: and ſhew<g ref="char:EOLhyphen"/>ing mercy unto thouſands of them that love me and keep my Commandments.</hi>
+            </p>
+            <p n="3">III. <hi>Thou ſhalt not take the Name of the Lord thy God in vain, for the Lord will not hold him guiltleſs that taketh his Name in vain.</hi>
+            </p>
+            <p n="4">
+               <pb n="38" facs="tcp:29985:24"/> IV. <hi>Remember the Sabbath day to keep it holy; ſix days ſhalt thou labour and do all thy work; but the ſeventh day is the Sabbath of the Lord thy God, in it thou ſhalt not do any work, thou, nor thy ſon, nor thy Daughter, thy man-ſervant, nor thy maid-ſervant, nor thy cattle, nor the Stranger that is within thy Gates: For in ſix days the Lord made Heaven and Earth, the Sea, and all that in them is; and reſted the ſeventh day, where<g ref="char:EOLhyphen"/>fore the Lord bleſſed the Sabbath day, and hallowed it.</hi>
+            </p>
+            <p n="5">V. <hi>Honour thy Father and thy Mo<g ref="char:EOLhyphen"/>ther, that thy days may be long upon the Land which the Lord thy God giveth thee.</hi>
+            </p>
+            <p n="6">VI. <hi>Thou ſhalt not Kill.</hi>
+            </p>
+            <p n="7">VII. <hi>Thou ſhalt not commit Adultery.</hi>
+            </p>
+            <p n="8">VIII. <hi>Thou ſhalt not Steal.</hi>
+            </p>
+            <p n="9">IX. <hi>Thou ſhalt not bear falſe witneſs a<g ref="char:EOLhyphen"/>gainſt thy Neigbbour.</hi>
+            </p>
+            <p n="10">X. <hi>Thou ſhalt not covet thy Neighbours houſe, thou ſhalt not covet thy Neighbours wife, nor his man-ſervant, nor his maid-ſer<g ref="char:EOLhyphen"/>vant, his Ox, nor his Aſs, nor anything that is thy Neighbours.</hi>
+            </p>
+         </div>
+         <div type="proofs">
+            <pb n="39" facs="tcp:29985:24"/>
+            <head>Proofs that there is a God.</head>
+            <p>AND now, good Reader, I am to make good my word in the beginning of this Writing; and if <hi>Solomon</hi> himſelf would ſome<g ref="char:EOLhyphen"/>times apply his Heart to know the wicked<g ref="char:EOLhyphen"/>neſs of Folly, (<hi>Eccl.</hi> 7.) ſure it cannot be below me or my Betters, to ſpend ſome thoughts about the madneſs of thoſe miſerable Fooles that ſay in their Hearts, <hi>there is no God.</hi> And I fear there are too many that are not much aſhamed to ſay ſo with their Lips (in effect and conſequentially at leaſt, where they do not ſay ſo expreſly and directly) as if they had been inſtructed by the <hi>Malmes<g ref="char:EOLhyphen"/>bury</hi>-Man, or thought that his <hi>Leviathan</hi> had devoured Religion, or overturned it by main Force.</p>
+            <p>The Folly of ſuch I ſhall make manifeſt by proving theſe two particulars.</p>
+            <p n="1">1. That none can be ſure that there is no God.</p>
+            <p n="2">2. That a Man of ſober Reaſon may be ſure that there is <hi>a God.</hi>
+            </p>
+            <p n="1">1. That none can aſſure us that there is no God. For whence ſhould they be ſure of ſuch a thing; Religion cannot be pretended to teach them ſo (for all Religion is ground<g ref="char:EOLhyphen"/>ed
+<pb n="40" facs="tcp:29985:25"/>upon the Notion of a God) nor can they be aſſured of it by Reaſon; For thoſe that believed there is a God (and forſake all Worldly Comforts in Hope of that happineſs after death which none but a God can give; as the Martyrs in all Ages) yet had Reaſon as well as others, and great Learning alſo; and the ſubtileſt Atheiſts as yet have not ſhew<g ref="char:EOLhyphen"/>ed half ſo much of any kind of Learning as many of thoſe that are followers of Godlineſs.</p>
+            <p>I confeſs ſome few men of Ingenuity have been Atheiſtical: a curious Wit was ſome<g ref="char:EOLhyphen"/>times ſo, and would delight himſelf in diſput<g ref="char:EOLhyphen"/>ing againſt Religion: ſo vain a thing is the the beſt thing without Grace. But before he dyed, he was moſt happily humbled for it, and wiſhed he had ſpent his Days in a Priſon, rather than to have diſhonoured his good God, as he had done: and at length (as a mighty Monument of Divine Mercy) he experienced the comforts of that good way which before he ſo much deſpiſed and oppoſed <hi>[ſee the Sermon preached at the Earl of</hi> Rocheſter's <hi>Funeral.]</hi>
+            </p>
+            <p n="2">2. If a man tell us ſeriouſly that he believes there is no God; I would fain know how ſuch a Man can in reaſon be believed by us? For if he be of that perſwaſion, we can ne<g ref="char:EOLhyphen"/>ver be aſſured that he means Honeſtly unto us, or makes Conſcience of Deceiving us.</p>
+            <pb n="41" facs="tcp:29985:25"/>
+            <p> But ſecondly, a ſober mind may be eaſily aſſured, that there is a God indeed; on theſe following grounds (amongſt many others that might be named.)</p>
+            <p n="1">1. Either all things are things made, or elſe there is ſomething which was not made, and by whoſe power the other things were made. The firſt can never be ſaid with any ſhew of Reaſon: For if all things (in general) were <hi>things made,</hi> then there muſt be ſom<g ref="char:EOLhyphen"/>thing that made them; and ſo there ſhould be ſomething beſides and beyond the number of [all things] which is impoſſible.</p>
+            <p>But (on the other ſide) if they grant that there is ſomething that was not made (as they muſt grant this, if they deny the other) then they do in effect grant that there is a God. For that Being that is beholding to none above it for its Being, is the very ſame we call [God] or in the Prophets words. The Everlaſting God the Creator of the Ends of the Earth.</p>
+            <p n="2">2. It is very neceſſary for the world to believe that there is a God; (yea ſuch a God as the Scripture tells us of, that is the Maker and Judge of Men, that loveth Righteouſ<g ref="char:EOLhyphen"/>neſs and hateth Iniquity, and is acquainted with all their ways) I ſay it is very needful for men to believe that there is ſuch a God to take notice of them. Therefore there is
+<pb n="42" facs="tcp:29985:26"/>ſuch a God <hi>indeed</hi>—, that muſt needs follow (upon that ſuppoſal:) For certainly it is not neceſſary that the world in all Ages and in all places ſhould believe a <hi>Lye;</hi> He that can think that a Lye is ſo needful for men gene<g ref="char:EOLhyphen"/>rally to believe, will think there is no Ne<g ref="char:EOLhyphen"/>ceſſity of being True; and ſo will as little deſerve to be truſted for his Honeſty, as to be admired for his Wit.</p>
+            <p>So then, 'tis plain.</p>
+            <p>A Lye is not neceſſary to be believed in the world; therefore it muſt needs be true that there is a God: (and ſuch a God as was ſaid before) for 'tis highly neceſſary that men ſhould believe there is ſuch an one.</p>
+            <p>For if they believe that there is none, they will believe they are bound in Conſcience to do any thing that is Evil; ſeeing Conſcience hath to do with God in the firſt place, and with none other but for his ſake; <hi>I have lived in all good Conſcience before God,</hi> ſaith the A<g ref="char:EOLhyphen"/>poſtle, <hi>Acts</hi> 23.1. And if a Man ſhould but once declare that he is of ſuch principles as move him to make Conſcience of nothing, He need ſay nothing more to prove than He is full of miſchief and throughly fitted for every evil work. Thus we have ſeen that it is neceſſary for men to believe there is a God; and that it is not neceſſary to Believe a Lye.</p>
+            <pb n="43" facs="tcp:29985:26"/>
+            <p> Therefore there is a God, and the belief thereof is the belief of a Truth.</p>
+            <p n="3">3. If there be no God, then all that the Scripture tells us of God, as to his Majeſty, Might and Mercy, our Duties to him, and Dependance upon him, and all things relat<g ref="char:EOLhyphen"/>ing thereto for this world and the world to come, are but ſo many Lyes and Cheats up<g ref="char:EOLhyphen"/>on Mankind. But we are ſure theſe are not Lies; for then Falſhood ſhould be the ground of all <hi>true</hi> goodneſs in the world, and af<g ref="char:EOLhyphen"/>ford the greateſt engagement to it, and en<g ref="char:EOLhyphen"/>couragment in it, as the Scriptures confeſſed<g ref="char:EOLhyphen"/>ly do; And ſo no man ſhould have any Real Reaſon for well-doing until he be deceived into it, by a belief of thoſe Commands and Promiſes and Rewards which have nothing of Real weight and truth; And he that can believe an Atheiſt that ſhould ſay [A Lye is the Foundation of all good living] may alſo, with as good warrant beleive a Fool; if he ſhould tell him, that a Dunghil is like the Sun, and would ſeem as Bright if it were but as far off, as the Sun is.</p>
+            <p n="4">4. There could be nothing of Sin or Duty, Good or Evil (or as Moraliſts call it, Virtue or Vice) if there were not a God to Require the one, and to forbid the other. But we are well aſſured that there is ſuch a thing as good and evil; and the Atheiſts themſelves
+<pb n="44" facs="tcp:29985:27"/>will not count it any abſurdity to call a faith<g ref="char:EOLhyphen"/>ful Servant a good Servant, and an <hi>unfaithful Servant</hi> a <hi>bad Servant.</hi>
+            </p>
+            <p>Now let us but conſider whence it is that any thing is really good, or matter of Duty. For Example, to live Soberly and deal juſtly: why is it indeed a good thing, or a matter of Duty ſo to do? Surely 'tis not ſo becauſe of mens Opinions; for if we ſhould live in a place where were Men generally ſo wicked as to have no good opinion of Juſtice and ſo<g ref="char:EOLhyphen"/>briety, yet they would be the ſame things ſtill, and of the ſame excellency, as 'tis plain in it ſelf. Nor is it a good thing (or a Duty) to deal juſtly or to live ſoberly becauſe men are pleaſed or profited in the world by our doing ſo; For what if moſt of thoſe men that take notice of it, or are concerned at it (as to their profit or approbation) ſhould dye; yet that would not make Juſtice and Sobriety to be leſs our Duties than they were before.</p>
+            <p>For if there were but three Men left alive in a whole Countrey, yet it would be every ones Duty to be a ſober man himſelf, and a Juſt man towards the other two (and it could never be proved that men ought to be juſt to<g ref="char:EOLhyphen"/>wards many, if they ought not alſo to be juſt towards a Few.)</p>
+            <p>Nor is it a Mans Duty to deal Juſtly (on<g ref="char:EOLhyphen"/>ly or chiefly) becauſe Mens Laws require
+<pb n="45" facs="tcp:29985:27"/>him ſo to do. For if he had been living before thoſe Laws of the Land were made, yet juſt dealing would have been his Duty, and un<g ref="char:EOLhyphen"/>juſt dealing his fault; as any Man of ſober Reaſon will grant. And no wiſe man did ever make Laws to engage men to deal juſt<g ref="char:EOLhyphen"/>ly, that thereby he might make it a Duty upon them ſo to do: but rather that he might bring them to that which they were bound in Duty to do, whether he had made a Law for it or not. What remains therefore as the true ground and Reaſon why Sobriety and Juſtice ſhould be good things indeed and Duties indeed, but this, that there is a God that requires us to practiſe them?</p>
+            <p>Which alſo is, if poſſible, more clearly to be ſeen in the Nature of Sin.</p>
+            <p>For Inſtance; for a Man to make Malici<g ref="char:EOLhyphen"/>ous Lyes of his Neighbours that never did him wrong: This all ſober-minded men will confeſs is a great Evil, Sin, or Fault (call it what you pleaſe) Now it muſt be thus evil or ſinful, either becauſe it is contrary to ſome changeable Good, or to ſome unchangeable Good. (For if it be not contrary to good, it would not be evil truly ſo called.)</p>
+            <p>If it be thus Evil becauſe it is contrary to an unchangeable Good, then there is an un<g ref="char:EOLhyphen"/>changeable good, and therefore a God. And that it is not Evil, only or chiefly, becauſe it
+<pb n="46" facs="tcp:29985:28"/>is contrary to a changeable good, is very plain: For ſuch malicious Lyes are unchangeably Evil and hateful things, and cannot be made good or harmleſs by any means, or ends whatſoever. (And if one ſhould tell us that ſuch vile things may be allowable at ſometimes and in ſome Caſes, I doubt not but we ſhould think him to be a wicked Fellow at all times.) Thus we have ſeen that ſuch Sins are un<g ref="char:EOLhyphen"/>changeably Evil and Hateful Things.</p>
+            <p>(And if they were not ſo, a man might commit them, and be never the more to blame for it, which is impoſſible.)</p>
+            <p>And we have no more Reaſon to think that any Sin can have an <hi>unchangeable</hi> Evil in it, as it is contrary to, or committed againſt, a changeable Being; than to think a Building may be ſafe and ſure while it ſtands upon an unſound Foundation.</p>
+            <p n="5">5. And eſpecially, obſerve good Reader, the wonderful works of Mercy and Judgment that have been ſhewed in the world, which as plainly declare a God to whom Mercy and Judgment belongeth, as a curious Building diſcovers that there was ſome underſtanding Agent that employed himſelf about it.</p>
+            <p n="1">1. <hi>Works of Mercy</hi> that have been ſhewed upon Men, and the wondrous ſupports and comforts that good Men have had in the world (eſpecially in Times of perſecution for
+<pb n="47" facs="tcp:29985:28"/>the goſpel ſake) are no ſmall proofs of a Di<g ref="char:EOLhyphen"/>vine Power and Goodneſs as the Author and giver of them.</p>
+            <p>Beſides many Marvellous Deliverances that are mentioned in Scripture, as of the <hi>Iſraelites</hi> from <hi>Pharaoh</hi> and his Hoſt, by a way made for them in the <hi>Red Sea,</hi> whereby they went in the midſt of the Sea upon dry ground; <hi>Exod</hi> 14.22. And that of <hi>Daniel</hi> from the Lions, and the three Worthies from the Fiery Furnace (in the 3d. and 6th. Chapters of <hi>Daniel)</hi> which <hi>Joſephus</hi> the <hi>Jew</hi> makes mention of in his Antiquities, (and would not have any to look upon as incredible Matters) I ſay beſides theſe and many more mighty Deliverances mentioned in Scripture, and Humane Hiſtory.</p>
+            <p>Thoſe that our Land hath had experience of from time to time (and eſpecially of late Time) are ſo ſtrange and great, ſo ſignal and ſo ſeaſonable, that He who cannot, or will not acknowledge them for the Effects of a Divine Providence, is fitter to be call'd a Block than a Man, and may be thought to have a Plot againſt all True Religion in the World.</p>
+            <p>And what ſhall we think of that happy Victory over the Fears of Death which ma<g ref="char:EOLhyphen"/>ny Good Men have had in the World?</p>
+            <pb n="48" facs="tcp:29985:29"/>
+            <p> How manifeſt was this in thoſe worthies of the Lord, that with <hi>Caleb</hi> followed him fully, and wore the Crown of Martyrdom in Q. <hi>Maries</hi> Dayes.</p>
+            <p>Dr. <hi>Taylor</hi> told his friends, that <hi>he thank<g ref="char:EOLhyphen"/>ed God, that he had no fears of Death upon him after he was condemned to be burned.</hi>
+            </p>
+            <p>
+               <hi>Rawlins White,</hi> a poor <hi>Fiſherman,</hi> that went crooked by Age and weakneſs, and was naturally of a Sad and Melancholy Diſpo<g ref="char:EOLhyphen"/>ſition, when he was going to dye for the Truth of Chriſt that he had profeſſed, went upright to the Fire, and had his Countenance filled with Cheerfulneſs and Joy.</p>
+            <p>
+               <hi>W. Carver</hi> (a mean man alſo, and one that could not read well till he was perſecuted for living well) had the ſame Spirit of Power and Peace in the like Condition, ſaying a little before his Death, — <hi>Lord have Mercy upon me; into thy Hands I commit my Spirit, and my Soul rejoyceth in thee.</hi>
+            </p>
+            <p>(Surely one Hour of ſuch Joy is more worth than an Age of worldly mirth)</p>
+            <p>Mr. <hi>Laurence Saunders</hi> a faithful Miniſter, called upon his Friends to Rejoyce with him; and having prayed he roſe up, and took the Stake in his Armes ſaying <hi>[Welcom Croſs of Chriſt, welcom Everlaſting Life!]</hi>
+            </p>
+            <p>Mr. <hi>Thomas Hawkes</hi> a Gentleman of Note in that time, told his Friends, that <hi>he would
+<pb n="49" facs="tcp:29985:29"/>give them a Token, by which they ſhould ſee, that it was no ſuch grievous thing to be burned for God's Cauſe, as men were apt to think.</hi> And accordingly when he had been in the Flame a conſiderable time, his ſpeech was taken from him, his Skin drawn together, and his fin<g ref="char:EOLhyphen"/>gers moſt of them conſumed, ſo that the People thought he had been dead; on a ſud<g ref="char:EOLhyphen"/>dain he lifted up his hands above his Head, and clapped them together three Times, in a moſt Joyful and Triumphant manner. At which the Proteſtants rejoyced much, and gave great thanks to the God of all Comfort.</p>
+            <p>Mr. <hi>Bainham</hi> alſo told them, that the Fire was not painful to him, but pleaſant as a Bed of Roſes.</p>
+            <p>So that famous Martyr Biſhop <hi>Farrar,</hi> when a Friend ſeemed to be very much trou<g ref="char:EOLhyphen"/>bled that he ſhould ſuffer ſuch a painful death, declared, <hi>He was not concerned for it; and had an Aſſurance that he ſhould not ſo much as ſhrink from the Fire,</hi> ſaying <hi>[If you ſee me ſtir in the Fire, Believe not my Doctrine.]</hi>
+            </p>
+            <p>Many others alſo, who dyed in their Beds, have been Eminent Inſtances of Victory over the Fears of Death.</p>
+            <p>
+               <hi>O Lord,</hi> (ſaid B. <hi>Jewel</hi> a little before his Death) <hi>break off all delays, and ſuffer thy Servant to come unto thee.</hi>
+            </p>
+            <p>Mr. <hi>Robert Bolton</hi> (on his Death-bed) be<g ref="char:EOLhyphen"/>ing
+<pb n="50" facs="tcp:29985:30"/>deſired by one, that as he had diſcovered to others the Comforts of Chriſt, he would alſo tell them what he felt in his own Soul.</p>
+            <p>He anſwered <hi>[Alas! I now want Breath to ſpeak: Yet to give you ſatisfaction, I am by the wonderful Mercies of God as full of Comfort as my heart can hold; and feel nothing in my Soul but Chriſt, with whom I do infinitely deſire to be.</hi>
+            </p>
+            <p>He that ſees his houſe as light for many hours time as ever he ſaw it in all his Life, will eaſily believe that this light came from the Fountain of Light. So he that well con<g ref="char:EOLhyphen"/>ſider's theſe High and Holy Conquering Com<g ref="char:EOLhyphen"/>forts that poſſeſt the Souls of ſuch good Men; (that believed a Judgment, and an everlaſt<g ref="char:EOLhyphen"/>ing State hereafter, and lead their lives ac<g ref="char:EOLhyphen"/>cording to ſuch Principles) I ſay, He that duly conſiders hereof will need no Argu<g ref="char:EOLhyphen"/>ments to prove that ſuch Comforts came from the Fountain of Goodneſs, and had a <hi>God</hi> in<g ref="char:EOLhyphen"/>deed for their Author. And if I could as eaſily aſſure my ſelf to have ſuch Comforts when I have moſt need of them, as I can that thoſe Comforts came from the God of Hea<g ref="char:EOLhyphen"/>ven, I ſhould think my ſelf a happy Man, tho' all the World ſhould deſpiſe me.</p>
+            <p>And ſo I come to the laſt particular menti<g ref="char:EOLhyphen"/>oned, even, The works of <hi>Judgment</hi> that have been ſhewed in the world; which muſt
+<pb n="51" facs="tcp:29985:30"/>needs convince the blindeſt Sinners, unleſs they be as blind as thoſe that will not ſee. <hi>The Lord is known by the Judgments that he executeth,</hi> Pſal. 9.16. And I am confident, he that conſiders of them with the Reaſon of a Man, ſhall not (at the ſame time) have ignorance enough to become an Atheiſt.</p>
+            <p>Some Examples whereof it will be proper to ſet down.</p>
+            <p n="1">1. A Souldier of King <hi>Pyrrhus</hi> being found dead, and his Dog by him, and could not be driven from him, the King had notice of it, and cauſed his Souldiers that were in thoſe parts, to be brought to the place, and to paſs in order (two and two) by the dead Body; when the Murderers came, the Dog fell upon them with the greateſt fierce<g ref="char:EOLhyphen"/>neſs imaginable: upon which they confeſſed the Murder, and dyed for it.</p>
+            <p>Which none can judge to be a ſtory feign<g ref="char:EOLhyphen"/>ed in favour of Chriſtanity, ſince 'tis re<g ref="char:EOLhyphen"/>ported by <hi>Plutarch</hi> a Heathen Writer, in his Book <hi>De ſolertia Animalium.</hi>
+            </p>
+            <p>Doth not this prove, that there is a Su<g ref="char:EOLhyphen"/>pream Being that takes notice of mens wick<g ref="char:EOLhyphen"/>edneſs, and to whom it belongeth to execute wrath for it?</p>
+            <p>He that can think a Dog ſhould do thus Naturally or by chance, is a Perſon too brui<g ref="char:EOLhyphen"/>tiſh to be diſputed with.</p>
+            <pb n="52" facs="tcp:29985:31"/>
+            <p> 
+               <hi>Saluſt</hi> alſo, a Heathen Writer, tells us of <hi>Jugurtha,</hi> that after the many Villanies he had committed, and the diſturbances he had made, his Mind and Conſcience was ſo ſtrook with Terrours, that he would go from one Room to another ſeveral times in the Night Seaſon, in a manner utterly unbe<g ref="char:EOLhyphen"/>coming a Prince; he durſt not truſt any man in any place; he feared all, Friends and Foes, and would look pale at every noiſe he heard.</p>
+            <p>From whence the Author, though a Hea<g ref="char:EOLhyphen"/>then Man (as was ſaid) concludeth that there is a God that obſerveth Mens Actions.</p>
+            <p>It is not my purpoſe to mention the Ex<g ref="char:EOLhyphen"/>amples of God's Judgements recorded in Scripture (or Church Hiſtory) for tho' thoſe are moſt conſiderable in themſelves, yet too many in this Age can make light of theſe things, ſuppoſing them to be the Poli<g ref="char:EOLhyphen"/>tick Inventions of Chriſtians to make their Religion regarded in the World.</p>
+            <p>But Arguments to the Eye-ſight (one would think) may ſignifie ſomething to theſe Men; and are ſuch as Mr. <hi>Hobbs</hi> his Philoſo<g ref="char:EOLhyphen"/>phy, will not teach them to deny or doubt of.</p>
+            <p>And ſuch they might have had in various Inſtances.</p>
+            <p>One having ſtol'n ſome things (at <hi>Read<g ref="char:EOLhyphen"/>ing</hi> in <hi>Berks</hi>) being eating, ſaid, <hi>If I know of them I wiſh to God this Bit may be my Death.</hi>
+               <pb n="53" facs="tcp:29985:31"/>And by that next Bit he was choked preſent<g ref="char:EOLhyphen"/>ly and fell down dead in the ſight of thoſe that accuſed him; and the things were found about him. The Truth of which hath had Teſtimony enough in that place.</p>
+            <p>And more lately, An Example beyond ex<g ref="char:EOLhyphen"/>exception was given us in the Year of our Lord, 1677. one that had ſtollen a Bible, wiſhed, <hi>That if he had done ſo, his Hands might Rot off.</hi> A few days after this wiſh, there began to be a Blackneſs about his wriſts, which turn'd to a ſwelling exceeding painful to himſelf, and as lothſome and offenſive to others, after it broke; at length there came out wormes. And having been a Spectacle of God's juſt Diſpleaſure to Multitudes that came to ſee him for many weeks, his hands <hi>did Rot off,</hi> and he died a little time after on the 21. of <hi>June</hi> 1677. in King's <hi>Swinford</hi> in <hi>Staffordſhire;</hi> of which there is a Narrative in print, publiſhed by Dr. <hi>Symon Ford,</hi> with ſuch concurrent Teſtimony as no ſober man can cavil againſt. If this doth not prove, that there is a God that took notice of his Stealing, and his wicked Wiſh aforeſaid, and that God was highly offended thereby, I ſhall never know what is a ſufficient proof of any thing.</p>
+            <p>And if any man ſhall impute this great thing to Fortune or Chance, or to any thing
+<pb n="54" facs="tcp:29985:32"/>elſe than to a Divine power that judgeth in the Earth, I ſhall fear he is one of thoſe who the Devil and Sin hath blinded to Deſtru<g ref="char:EOLhyphen"/>ction.</p>
+            <p>Thus, Reader, I have proved that an A<g ref="char:EOLhyphen"/>theiſt is a Fool; and if thou art ſo wiſe as to live like a Chriſtian, endeavour to ſerve thy Lord with Joyfulneſs of Heart, whatſoever Sorrows may threaten thee in the World; <hi>For his mercy is to everlaſting upon them that fear him.</hi> Pſal. 103.17.</p>
+            <p>VVhatſoever changes may be in thy ſelf or others, yet He who is thy Happineſs chang<g ref="char:EOLhyphen"/>eth not, <hi>Mal.</hi> 3.6. If all thy Friends on Earth ſhould forſake thee, yet thou ſhalt live under the care and compaſſions of thy Hea<g ref="char:EOLhyphen"/>venly Father, who will never leave thee nor forſake thee, <hi>Heb.</hi> 13.5.</p>
+            <p>If thou art never ſo weak, and thy Ene<g ref="char:EOLhyphen"/>mies never ſo ſtrong, yet thou ſhalt alwaies have an Infinite Goodneſs, and Everlaſting ſtrength to truſt unto.</p>
+            <p>If all the Streams of Creature Comforts ſhould fail thee at once, yet ſtill thou ſhalt have a God to enjoy.</p>
+            <p>
+               <hi>To whom be Glory for Evermore.</hi>
+            </p>
+         </div>
+         <div type="prayer">
+            <pb n="55" facs="tcp:29985:32"/>
+            <head>A Morning Prayer for A Family.</head>
+            <p>
+               <hi>O Moſt Great and Glorious Lord our God, thy Name alone is Excellent, and thy Praiſe above Heaven and Earth: we confeſs thou art infinitely pure and perfect in thy Self, and haſt been abundantly good and gracious towards us: Thy great goodneſs hath followed us daily, and thy Mercies have been renewed upon us every Morning; And it is thy goodneſs alone, O God, that we have awaked in Com<g ref="char:EOLhyphen"/>fort and not in Torment. To thee therefore we deſire to offer up our Morning Sacrifice of Pray<g ref="char:EOLhyphen"/>er and Thanks-giving; And tho' we are un<g ref="char:EOLhyphen"/>worthy to offer thee any Sacrifice. yet we be<g ref="char:EOLhyphen"/>ſeech thee, O Lord, Accept of us and our ſer<g ref="char:EOLhyphen"/>vices in the worthyneſs of thy Son Jeſus Chriſt the Righteous; for his ſake we humbly pray thee forgive us all our Sins of what number or nature ſoever againſt thee, by Thought, Word or Deed, by Negligence and Ignorance, by Preſumption and Wilfulneſs; O let thy mercy be magnified in the pardon of them all; And let them never be charged upon us to our Diſcou<g ref="char:EOLhyphen"/>ragement in this world, or our Deſtruction in the world to come. And O Lord, we pray thee let us not only find Mercy with thee here<g ref="char:EOLhyphen"/>after, but alſo let us obtain powerful and effectual
+<pb n="56" facs="tcp:29985:33"/>grace to live as becomes thy Servants Here. O turn our Hearts ſtill more unto thee, and fix our Affections on the things that are Above; and give us Hearts ſuitable to thoſe bleſſed Laws which thou haſt commanded us to walk in: O Lord we know thou haſt the greateſt Right unto us, O do thou maintain thy Right within us: Set up thy Throne in our Souls, and let thine own Arm Rule for thee there; And graciouſly ſubdue every Thought, Affection and Paſſion that exalts it ſelf againſt thy Law. Give us thy Holy Spirit to Sanctifie our Na<g ref="char:EOLhyphen"/>tures more and more, and to inſtruct us ſaving<g ref="char:EOLhyphen"/>ly in the Truths of thy Holy Word: Lord help us ſo to make it the Rule of our Lives, as that it may be our Comfort at our Deaths: We know O God, it is not in Man to direct his ways; we pray thee, do thou undertake the work, and make our ways acceptable to thy Self: To this End, increaſe our Knowledge of thee, quicken our Love to thee, and confirm our Reſolutions of ſerving thee. Help us by Faith to overcome the world, to deny our ſelves and our own wills to follow thee.</hi>
+            </p>
+            <p>
+               <hi>Lord let thy Mercy Compaſs us about this day, and preſerve us from outward and Bodily Miſ<g ref="char:EOLhyphen"/>chiefs, for thou Lord only makeſt us to dwell in ſafety: And eſpecially be pleaſed to keep us from thoſe things that may be hurtful to our Souls: O let us not meet with Temptations to
+<pb n="57" facs="tcp:29985:33"/>diſhonour thee, or elſe give us Grace and ſtrength to Reſiſt and overcome them. And in the midſt of all oppoſitions and Hindrances whatſoever, Help us, O God, to look unto thee by Faith, to wait upon thee by Prayer, and to encourage our Selves (in thy ways) by the Hope of that Eter<g ref="char:EOLhyphen"/>nal Salvation which thou haſt aſſured to them that truly obey thee.</hi>
+            </p>
+            <p>
+               <hi>Be gracious we beſeech thee, O Lord, to this ſinful Land, and turn thy wrath away from us, in the Cauſes of it. Maintain thy true Religion among us, and grant unto us and our poſterity the bleſſed Liberty of looking into thy perfect Law, for the Direction and comfort of our precious Souls.</hi>
+            </p>
+            <p>
+               <hi>Lord, Bleſs in a ſpecial manner, and with the choiceſt Bleſſings our Soveraign Lord the King (and his Relations and Councils) and grant, That under Him, we may lead quiet and peaceable Lives in all Godlineſs and Ho<g ref="char:EOLhyphen"/>neſty: Let his Reign be Proſperous and his Days many, and make True Religion to flouriſh in his Time.</hi>
+            </p>
+            <p>
+               <hi>Bleſs our Relations Friends living in the World, Lord give and continue to them what is needful for this Life, and chiefly what is moſt needful for the Life to come. And now alſo, O our God we deſire to Bleſs thy Holy Name for all thy Mercies to us, ſleeping and waking, throughout all the parts and paſſages
+<pb n="58" facs="tcp:29985:34"/>of our Lives, that we have not this Night ſlept the ſleep of Death; but have awaked again, becauſe thou, O Lord, haſt ſuſtained us. O help us ſtill to live unto thee by whom we live; And let our little time, through thy Mercy and Grace, prepare us for a Happy Eternity:</hi>
+            </p>
+            <p>
+               <hi>And all we beg in the Name, and for the ſake of the ſame, thy Son Jeſus Chriſt our Lord, who hath taught us to pray, ſaying,</hi> Our Father. <hi>&amp;c.</hi>
+            </p>
+         </div>
+         <div type="prayer">
+            <pb facs="tcp:29985:34"/>
+            <pb facs="tcp:29985:35"/>
+            <pb n="59" facs="tcp:29985:35"/>
+            <head>An Evening Prayer for a Family.</head>
+            <p>
+               <hi>MOſt great and gracious Lord God who haſt brought us by thy good Providence to the end of this Day, thou art more than worthy of our evening Sacrifice of praiſes and Thanksgiving; And though we are not worthy to lift up our Hands in thy Name, yet O Fa<g ref="char:EOLhyphen"/>ther of Mercies accept our Prayers and Ser<g ref="char:EOLhyphen"/>vices which we offer up unto thee in the name of thy Son Jeſus Chriſt.</hi>
+            </p>
+            <p>
+               <hi>O Lord we muſt needs Acknowledge we are by Nature Children of wrath: we are ſinful in our Natures and Sinful in our Lives, tranſ<g ref="char:EOLhyphen"/>greſſing thy Law dayly, and do not know how often we have offended: But all our offences are known unto thee, who ſearcheſt the Hearts, and art acquainted with all our ways. We confeſs O God, the leaſt of them, as committed againſt thy glorious Majeſty, makes us juſtly liable to thy Wrath and Diſpleaſure for ever more; O then into what a Depth of Deſtruction and Mi<g ref="char:EOLhyphen"/>ſery would all our ſins together caſt us, if thou ſhouldſt enter into Judgment with us, and call us to ſtrict Accounts for them: (even the ſin<g ref="char:EOLhyphen"/>ning Angels could not ſtand in thy ſight, How then could we, in ſuch a Caſe) But bleſſed be thy Name, thou haſt told us that thou art a
+<pb n="60" facs="tcp:29985:36"/>Merciful God, and that there is Forgiveneſs with thee. O be gracious, we beſeech thee, And let that Rich Mercy be ſhewed upon us. O let the whole multitude of our Sins be blotted out in the greater multitude of thy tender Com<g ref="char:EOLhyphen"/>paſſions.</hi>
+            </p>
+            <p>
+               <hi>Remember not any of our offences againſt us, but pardon and Accept us, O Heavenly Father, for the ſake of thy Son Jeſus Chriſt, in whom thou art alwaies well pleaſed; For his ſake we pray thee be Reconciled to us, and ſhew us thy Salvation. And as we Beg of thee that ſin may not ruine us hereafter, ſo we beſeech thee, O God, Let it not Reign in us here; but do thou vouchſafe to Rule us by thy Word and Spirit, and ſo put thy Fear in our Hearts that we may not groſly depart from thee. O teach us to do the things that pleaſe thee, For thou art our God, and there is none that teacheth like thee. In the light of thy Law, O Lord, let us ſee light; and know in this our Day the things that moſt concern our Everlaſting Peace.</hi>
+            </p>
+            <p>
+               <hi>Give us ſuch a deep ſenſe of our own ſinful<g ref="char:EOLhyphen"/>neſs as may make us prize us prize thy Chriſt above all this world, and enable us ſo to come unto Him as that we may find in him true Reſt for our Soules.</hi>
+            </p>
+            <p>
+               <hi>Lord make us to ſee the vanity of the Earth, the vileneſs of Sin, the beauty of Holineſs, and
+<pb n="61" facs="tcp:29985:36"/>the benefit of thy Service; And let our Hearts be in love with thoſe holy Commandments in keeping of which there is great Reward. And enable us ſo to be Followers of Righteouſneſs, as that the Day of our Death may be unto our Souls a Day of Peace.</hi>
+            </p>
+            <p>
+               <hi>And with us, O God, we pray thee be mer<g ref="char:EOLhyphen"/>ciful to all thy Afflicted people that call upon thee; ſend them help in time of need; And let them find thy peace in due ſeaſon, that truly ſeek thy Mercy and Grace. Be gracious to the Land wherein we live, Lord forgive the crying Sins of the Nation; O Conſult thy own Compaſſions, and turn from us thoſe heavy Judgements that we have deſerved. And when the Day of Evil comes upon us, O Remember us in thy goodneſs. Lord, mercifully grant to us and our Poſterity the purity of thine Ordi<g ref="char:EOLhyphen"/>nances, the liberty of thy Word and Worſhip: O let thy Teſtimonies be our Heritage for ever: And never leave us in the Hands of thoſe Men, that would hide thy Commandments from us. And let thy Mercy, O God be magnified upon, and continued towards thy Servant and our So<g ref="char:EOLhyphen"/>veraign that now is over us: Let thy Wiſdom be his Guide, and thy providence his Guard agaiſt all his Enemies: Help him to Rule for thee in Earth, and fit him to Raign with thee in Heaven. Bleſs, we pray thee alſo, our Friends and Relations whereſoever diſperſed upon the
+<pb n="62" facs="tcp:29985:37"/>face of the Earth: Lord graunt them the protections of thy Providence, and call not for them out of this Life till thy grace hath fitted them for a Better.</hi>
+            </p>
+            <p>
+               <hi>Let our Enemies alſo find thy Favour; fit them for thy Mercy and ſhew thy Mercy upon them.</hi>
+            </p>
+            <p>
+               <hi>Bleſs, O Lord, we pray thee, All that be<g ref="char:EOLhyphen"/>long to our Family: and make all of them that are capable of knowing thy Name, to ſerve thee acceptably, with Reverence and Godly Fear. And now, O thou powerful preſerver of Men, without whom nothing is able to keep us in ſafe<g ref="char:EOLhyphen"/>ty. we pray thee keep us ſafe from the power of Evil Men or Spirits, from Fire, Frights, and all dreadful Dangers whatſoever.</hi>
+            </p>
+            <p>
+               <hi>And now alſo, O God, we deſire to offer up our unfeigned Praiſe and Thanks for All the manifold Benefits that we have received at thy merciful Hand. For Food and Raiment, Reſt and Peace, and all thoſe things that are need<g ref="char:EOLhyphen"/>ful for our Bodies; But eſpecially for all thoſe advantages that are afforded us for our Soul's good; O help us ſo to improve them for all pur<g ref="char:EOLhyphen"/>poſes of Holineſs as that at the Day of Jeſus Chriſt, we may find Peace, and not be aſham<g ref="char:EOLhyphen"/>ed before</hi> Him <hi>at his Coming: And all we humbly beſeech at thy Hands, for the ſame
+<pb n="63" facs="tcp:29985:37"/>Chriſt Jeſus ſake, in whoſe bleſſed Name and Words, we pray as he hath taught us, ſaying,</hi> Our Father which art in Heaven, Hallowed be thy Name. Thy Kingdom come. Thy Will be done, on Earth as it is in Heaven. Give us this Day our Daily Bread. And for<g ref="char:EOLhyphen"/>give us our Debts as we forgive our Debtors. And lead us not into Temptation, but deli<g ref="char:EOLhyphen"/>ver us from Evil: for thine is the Kingdom, and the Power and the Glory for ever and ever, <hi>Amen.</hi>
+            </p>
+         </div>
+         <div type="poem">
+            <pb n="64" facs="tcp:29985:38"/>
+            <lg>
+               <l>O Everlaſting Lord moſt High</l>
+               <l>Vouchſafe to hear for Jeſus' Merit,</l>
+               <l>And to my Soul do thou draw nigh</l>
+               <l>By th'Influences of thy Spirit.</l>
+            </lg>
+            <lg>
+               <l>Thy Greatneſs cauſe me to Adore</l>
+               <l>Who all my Breath haſt in thy Hand,</l>
+               <l>And thine Aſſiſtance to implore</l>
+               <l>That doſt the Hoſts of Heaven command.</l>
+            </lg>
+            <lg>
+               <l>And as the Hart that Hunted is</l>
+               <l>Doth for the Streams of water Thirſt,</l>
+               <l>So make me ſeek the path of Bliſs,</l>
+               <l>And prize the Riches of thy Chriſt.</l>
+            </lg>
+            <lg>
+               <l>Oh fix my Thoughts on things Above</l>
+               <l>And let my Soul more often Taſte</l>
+               <l>Even here on Earth, by Faith and Love,</l>
+               <l>The Pleaſures that for ever laſt.</l>
+            </lg>
+            <trailer>FINIS.</trailer>
+            <pb facs="tcp:29985:38"/>
+         </div>
+      </body>
+   </text>
+</TEI>
